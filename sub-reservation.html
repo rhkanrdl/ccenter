@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        
+        <title>제주특별자치도 문화예술진흥원</title>
+        <link href="source/css/boxicons.css" rel="stylesheet">
+        <link href="source/css/swiper-bundle.css" rel="stylesheet">
+        <link href="source/css/style.css" rel="stylesheet">
+
+        <!-- javaScript -->
+        <script src="source/js/jquery-3.5.1.min.js"></script>
+        <script src="source/js/swiper-bundle.js"></script>
+        <script src="source/js/common.js"></script>
+
+    </head>
+
+    <body class="sub">
+        <!-- S:skip_navi -->
+        <div class="skip_navi">
+            <a class="sr-only sr-only-focusable" href="#header">메뉴 바로가기</a>
+            <a class="sr-only sr-only-focusable" href="#content">본문 바로가기</a>
+            <a class="sr-only sr-only-focusable" href="#footer">푸터 바로가기</a>
+        </div>
+        <!-- E:skip_navi -->
+        <!-- S:header -->
+        <header id="header">
+            <div class="container">
+                <h1><a href="/">제주특별자치도 문화예술진흥원</a></h1>
+
+
+                <button class="main-menu">
+                    메뉴호출버튼
+                </button> 
+            </div>
+        </header>
+        <!-- E:header -->
+        
+        <!-- S:main_menu -->
+        <nav id="main-menu" class="menu">
+            <h2>제주특별자치도 문화예술진흥원</h2>
+
+
+            <div class="tools">
+                <a href="">회원가입</a>
+                <a class="login" href="">로그인</a>
+            </div>
+
+
+            <div class="menus">
+                <ul>
+                    <li>
+                        <h3><a href="">공연전시</a></h3>
+
+                        <ul>
+                            <li><a class="active" href="">공연일정</a></li>
+                            <li><a href="">공연목록</a></li>
+                            <li><a href="">전시일정</a></li>
+                            <li><a href="">전시목록</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3><a href="">커뮤니티</a></h3>
+
+                        <ul>
+                            <li><a href="">공지사항</a></li>
+                            <li><a href="">이용후기</a></li>
+                            <li><a href="">FAQ</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3><a href="">예약확인</a></h3>
+                    </li>
+                </ul>
+            </div>
+
+            <button class="close">
+                <i class='bx bx-x'></i>
+                메뉴닫기
+            </button>
+             
+        </nav>
+        <!-- E:main_menu -->
+
+
+
+
+
+        <!-- S:mainContent -->
+        <div id="content" class="sub">
+
+            <section class="sub-navigation">
+                <div class="container">
+
+
+                    <div class="depth1">
+                        <button>공연전시</button>
+                        <ul>
+                            <li>
+                                <a href="">공연전시</a>
+                            </li>
+                            <li>
+                                <a href="">커뮤니티</a>
+                            </li>
+                            <li>
+                                <a href="">예약확인</a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <div class="depth2">
+                        <button>공연일정</button>
+                        <ul>
+                            <li>
+                                <a href="">공연일정</a>
+                            </li>
+                            <li>
+                                <a href="">공연목록</a>
+                            </li>
+                            <li>
+                                <a href="">전시일정</a>
+                            </li>
+                            <li>
+                                <a href="">전시목록</a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </section>
+
+
+            <section class="sub-reservation">
+                <div class="container">
+
+
+                    <div class="head">
+
+                        <p class="image">
+                            <img src="source/images/temp01.png" alt="">
+                        </p>
+
+                        <h4>
+                            <small>
+                                <대관공연>
+                            </small>
+                                『2022년 제6회 국제합창축제 앤 심포지엄』
+                        </h4>
+
+                        <ul>
+                            <li>
+                                <strong class="sr-only">날짜</strong>2022-03-26 ~ 2022-03-27</li>
+                            <li>
+                                <strong class="sr-only">시간</strong>19:00 / 21:00</li>
+                            <li>
+                                <strong class="sr-only">장소</strong>대극장</li>
+                        </ul>
+                    </div>
+
+                    <div class="select-option">
+
+                        <div class="date on"> <!-- on 클래스명으로 펼치고 접기 -->
+                            <h5>날짜선택</h5>
+
+                            <div class="select-outline">
+                                <select>
+                                    <option>관람일자를 선택하세요.</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="time">
+                            <h5>회차선택</h5>
+
+                            <input id="time01" name="time" type="radio">
+                            <label for="time01" class="off">
+                                <p><del>19:00</del></p>
+
+                                <span>선택불가(매진)</span>
+                            </label>
+
+                            <input id="time02" name="time" type="radio">
+                            <label for="time02" class="on">
+                                <p><strong>21:00</strong> (2회차)</p>
+
+                                <span>예약가능 : <strong>22</strong>석</span>
+                            </label>
+                        </div>
+
+                        <div class="seat">
+                            <h5>좌석선택</h5>
+
+                            <strong><좌석배치도> <span>좌석배치도 하단 '구역선택'을 눌러 좌석을 선택하세요</span></strong>
+                            <p class="map-image">
+                                <img src="source/images/map01.png" alt="" >
+
+                                <button class="zoom">확대보기</button>
+                            </p>
+
+                            <div class="select-outline">
+                                <select>
+                                    <option>1층 - A구역</option>
+                                    <option>1층 - B구역</option>
+                                </select>
+                            </div>
+
+                            <div class="map-check">
+
+                                <div class="legend">
+                                    <h6>
+                                        <span>1층-A구역</span>
+                                        
+                                        <small>원하시는 좌석을 선택해주세요.</small>
+                                    </h6>
+
+                                    <div>
+                                        <div>
+                                            <p class="seat-r"><span></span> R석</p>
+                                            <p class="seat-s"><span></span> S석</p>
+                                            <p class="seat-n"><span></span> N석</p>
+                                        </div>
+                                        <div>
+                                            <p class="seat-disabled"><span></span> 장애인석</p>
+                                            <p class="seat-distancing"><span></span> 사회적거리두기</p>
+                                            <p class="close"><span></span> 선택불가</p>
+                                        </div>
+                                        <div>
+                                            <p>R석: 22,000원</p>
+                                            <p>S석: 22,000원</p>
+                                            <p>N석: 9,000원</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <!-- 
+                                    p 클래스명
+                                    선택불가 : close
+                                    R석 : seat-r
+                                    S석 : seat-s
+                                    N석 : seat-n
+                                    사회적거리두기 : seat-distancing
+                                    장애인석 : seat-disabled
+
+                                    선택좌석 : checked
+                                 -->
+
+                                <!-- 1층 a구역 -->
+                                <div class="outline seat-1f-a">
+                                    <div class="line1">
+                                        <p><span></span></p>
+                                        <p><span></span></p>
+                                        
+                                        <p id="line1-3" class="close"><span>3</span></p>
+                                        <p id="line1-4" class="seat-r checked"><span>4</span></p>
+                                        <p id="line1-5" class="close"><span>5</span></p>
+                                        <p id="line1-6" class="seat-r checked"><span>6</span></p>
+                                        <p id="line1-7" class="close"><span>7</span></p>
+                                        <p id="line1-8" class="seat-r"><span>8</span></p>
+                                        <p id="line1-9" class="close"><span>9</span></p>
+                                        <p id="line1-10" class="seat-r"><span>10</span></p>
+                                    </div>
+                                    <div class="line2">
+                                        <p><span></span></p>
+
+                                        <p id="line2-2" class="close"><span>2</span></p>
+                                        <p id="line2-3" class="seat-r"><span>3</span></p>
+                                        <p id="line2-4" class="close"><span>4</span></p>
+                                        <p id="line2-5" class="seat-r"><span>5</span></p>
+                                        <p id="line2-6" class="close"><span>6</span></p>
+                                        <p id="line2-7" class="seat-r"><span>7</span></p>
+                                        <p id="line2-8" class="close"><span>8</span></p>
+                                        <p id="line2-9" class="seat-r"><span>9</span></p>
+                                        <p id="line2-10" class="close"><span>10</span></p>
+
+                                    </div>
+                                    <div class="line3">
+                                        <p id="line3-1" class="close"><span>1</span></p>
+                                        <p id="line3-2" class="seat-n checked"><span>2</span></p>
+                                        <p id="line3-3" class="close"><span>3</span></p>
+                                        <p id="line3-4" class="seat-n"><span>4</span></p>
+                                        <p id="line3-5" class="close"><span>5</span></p>
+                                        <p id="line3-6" class="seat-r"><span>6</span></p>
+                                        <p id="line3-7" class="close"><span>7</span></p>
+                                        <p id="line3-8" class="seat-r"><span>8</span></p>
+                                        <p id="line3-9" class="close"><span>9</span></p>
+                                        <p id="line3-10" class="seat-r"><span>10</span></p>
+                                    </div>
+                                    <div class="line4">
+                                        <p id="line4-1" class="seat-n"><span>1</span></p>
+                                        <p id="line4-2" class="close"><span>2</span></p>
+                                        <p id="line4-3" class="seat-n"><span>3</span></p>
+                                        <p id="line4-4" class="seat-distancing"><span>4</span></p>
+                                        <p id="line4-5" class="seat-n"><span>5</span></p>
+                                        <p id="line4-6" class="close"><span>6</span></p>
+                                        <p id="line4-7" class="seat-n"><span>7</span></p>
+                                        <p id="line4-8" class="close"><span>8</span></p>
+                                        <p id="line4-9" class="seat-n"><span>9</span></p>
+                                        <p id="line4-10" class="close"><span>10</span></p>
+                                    </div>
+                                    <div class="line5">
+                                        <p id="line5-1" class="close"><span>1</span></p>
+                                        <p id="line5-2" class="seat-n"><span>2</span></p>
+                                        <p id="line5-3" class="close"><span>3</span></p>
+                                        <p id="line5-4" class="seat-n"><span>4</span></p>
+                                        <p id="line5-5" class="close"><span>5</span></p>
+                                        <p id="line5-6" class="close"><span>6</span></p>
+                                        <p id="line5-7" class="close"><span>7</span></p>
+                                        <p id="line5-8" class="seat-r"><span>8</span></p>
+                                        <p id="line5-9" class="close"><span>9</span></p>
+                                        <p id="line5-10" class="seat-r"><span>10</span></p>
+                                    </div>
+                                    <div class="line6">
+                                        <p id="line6-1" class="seat-disabled"><span>1</span></p>
+                                        <p id="line6-2" class="close"><span>2</span></p>
+                                        <p id="line6-3" class="seat-s"><span>3</span></p>
+                                        <p id="line6-4" class="seat-distancing"><span>4</span></p>
+                                        <p id="line6-5" class="seat-s"><span>5</span></p>
+                                        <p id="line6-6" class="close"><span>6</span></p>
+                                        <p id="line6-7" class="close"><span>7</span></p>
+                                        <p id="line6-8" class="close"><span>8</span></p>
+                                        <p id="line6-9" class="close"><span>9</span></p>
+                                        <p id="line6-10" class="close"><span>10</span></p>
+                                    </div>
+                                    <div class="line7">
+                                        <p id="line7-1" class="seat-disabled"><span>1</span></p>
+                                        <p id="line7-2" class="close"><span>2</span></p>
+                                        <p id="line7-3" class="seat-s"><span>3</span></p>
+                                        <p id="line7-4" class="seat-distancing"><span>4</span></p>
+                                        <p id="line7-5" class="seat-s"><span>5</span></p>
+                                        <p id="line7-6" class="close"><span>6</span></p>
+                                        <p id="line7-7" class="close"><span>7</span></p>
+                                        <p id="line7-8" class="close"><span>8</span></p>
+                                        <p id="line7-9" class="close"><span>9</span></p>
+                                        <p id="line7-10" class="close"><span>10</span></p>
+                                    </div>
+                                    <div class="line8">
+                                        <p id="line8-1" class="seat-disabled"><span>1</span></p>
+                                        <p id="line8-2" class="close"><span>2</span></p>
+                                        <p id="line8-3" class="seat-s"><span>3</span></p>
+                                        <p id="line8-4" class="seat-distancing"><span>4</span></p>
+                                        <p id="line8-5" class="seat-s"><span>5</span></p>
+                                        <p id="line8-6" class="close"><span>6</span></p>
+                                        <p id="line8-7" class="close"><span>7</span></p>
+                                        <p id="line8-8" class="close"><span>8</span></p>
+                                        <p id="line8-9" class="close"><span>9</span></p>
+                                        <p id="line8-10" class="close"><span>10</span></p>
+                                    </div>
+                                    <div class="line9">
+                                        <p id="line9-1" class="seat-disabled"><span>1</span></p>
+                                        <p id="line9-2" class="close"><span>2</span></p>
+                                        <p id="line9-3" class="seat-s"><span>3</span></p>
+                                        <p id="line9-4" class="seat-distancing"><span>4</span></p>
+                                        <p id="line9-5" class="seat-s"><span>5</span></p>
+                                        <p id="line9-6" class="close"><span>6</span></p>
+                                        <p id="line9-7" class="close"><span>7</span></p>
+                                        <p id="line9-8" class="close"><span>8</span></p>
+                                        <p id="line9-9" class="close"><span>9</span></p>
+                                        <p id="line9-10" class="close"><span>10</span></p>
+                                    </div>
+                                    <div class="line10">
+                                        <p id="line10-1" class="seat-disabled"><span>1</span></p>
+                                        <p id="line10-2" class="close"><span>2</span></p>
+                                        <p id="line10-3" class="seat-s"><span>3</span></p>
+                                        <p id="line10-4" class="seat-distancing"><span>4</span></p>
+                                        <p id="line10-5" class="seat-s"><span>5</span></p>
+                                        <p id="line10-6" class="close"><span>6</span></p>
+                                        <p id="line10-7" class="close"><span>7</span></p>
+                                        <p id="line10-8" class="close"><span>8</span></p>
+                                        <p id="line10-9" class="close"><span>9</span></p>
+                                        <p id="line10-10" class="close"><span>10</span></p>
+                                    </div>
+                                    <div class="line11">
+                                        <p id="line11-1" class="seat-disabled"><span>1</span></p>
+                                        <p id="line11-2" class="close"><span>2</span></p>
+                                        <p id="line11-3" class="seat-s"><span>3</span></p>
+                                        <p id="line11-4" class="seat-distancing"><span>4</span></p>
+                                        <p id="line11-5" class="seat-s"><span>5</span></p>
+                                        <p id="line11-6" class="close"><span>6</span></p>
+                                        <p id="line11-7" class="close"><span>7</span></p>
+                                        <p id="line11-8" class="close"><span>8</span></p>
+                                        <p id="line11-9" class="close"><span>9</span></p>
+                                        <p id="line11-10" class="close"><span>10</span></p>
+                                    </div>
+
+
+
+
+                                </div>
+
+                                <!-- 1층 b구역 -->
+
+
+
+                            </div>
+
+
+                            <h5>선택좌석</h5>
+
+                            <div class="checked-seat">
+                                <div class="type">
+                                    <h6>R석 <small>선택 : <strong>5</strong>매</small></h6>
+                                    <p>106,000원</p>
+                                </div>
+                                <ul>
+                                    <li>
+                                        1층 A구역 2번
+
+                                        <button>삭제</button>
+                                    </li>
+                                    <li>
+                                        1층 A구역 3번
+
+                                        <button>삭제</button>
+                                    </li>
+                                    <li>
+                                        1층 A구역 4번
+
+                                        <button>삭제</button>
+                                    </li>
+                                    <li>
+                                        1층 A구역 5번
+
+                                        <button>삭제</button>
+                                    </li>
+                                    <li>
+                                        1층 A구역 8번
+
+                                        <button>삭제</button>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="checked-seat">
+                                <div class="type">
+                                    <h6>S석 <small>선택 : <strong>1</strong>매</small></h6>
+                                    <p>106,000원</p>
+                                </div>
+                                <ul>
+                                    <li>
+                                        2층 H구역 2번
+
+                                        <button>삭제</button>
+                                    </li>
+                                </ul>
+
+                            </div>
+
+
+
+
+                        </div>
+
+
+
+                    </div>
+
+                    <div class="total">
+                        <h5>결제예정금액</h5>
+
+                        <p>
+                            <strong>5,000</strong>
+                            원
+                        </p>
+                    </div>
+
+
+
+
+                    <div class="button-set">
+                        <button>다음 ></button>
+
+                        <!--
+                        옵션선택 완료시 on 클래스명
+                        <button class="on">다음 ></button>
+
+                        -->
+                    </div>
+                </div>
+                
+
+            </section>
+
+
+
+        </div> 
+        <!-- E:mainContent -->
+
+    <div class="shadow"></div>
+    <!-- S:footer -->
+    <footer id="footer">
+        <div class="container">
+
+            <div class="customer">
+                <p>공연장 대관문의 <strong>064-710-7632</strong></p>
+                <p>전시실 대관문의 <strong>064-710-7633</strong></p>
+            </div>
+
+            <ul class="footer-link">
+                <li>
+                    <a href="">개인정보처리방침</a>
+                </li>
+                <li>
+                    <a href="">저작권보호정책</a>
+                </li>
+                <li>
+                    <a href="">영상정보처리기기운영관리방침</a>
+                </li>
+
+            </ul>
+
+            <address>
+                <p>(우)63270 제주특별자치도 제주시 동광로 69 (일도이동) </p>
+                <p>운영과 (064)710-7605, 공연기획과 (064)710-7641 / </p>
+                <p>Fax (064)710-7609</p>
+                <p class="copyright">Copright(c) 제주특별자치도 문화예술진흥원, All Rights Reserved.</p>
+            </address>
+
+
+
+
+
+        </div>
+    </footer>
+    <!-- E:footer -->
+
+
+
+    </body>
+
+</html>
