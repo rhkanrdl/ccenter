@@ -2633,6 +2633,27 @@ body {
 
           div.input-form {
 
+            button.back {
+              font-size:13px;
+              color:#555555;
+              font-weight:500;
+              width:110px;
+              height:35px;
+              border-radius:35px;
+              margin:0 0 24px;
+              padding:0 0 0 15px;
+              border:none;
+              background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='12.884' height='14.616' viewBox='0 0 12.884 14.616'%3E%3Cdefs%3E%3CclipPath id='clip-path'%3E%3Cpath d='M.478,0C.214,0,0,.291,0,.65s.214.65.478.65H12.24c.264,0,.478-.291.478-.65S12.5,0,12.24,0Z' fill='%2336435e'/%3E%3C/clipPath%3E%3CclipPath id='clip-path-2'%3E%3Cpath d='M.641,0a.65.65,0,0,0-.5,1.056L5.469,7.714a.65.65,0,0,0,1.157-.4V7.3a.646.646,0,0,0-.143-.4L1.158.244A.65.65,0,0,0,.658,0Z' fill='%2336435e'/%3E%3C/clipPath%3E%3CclipPath id='clip-path-3'%3E%3Cpath d='M5.469.244.143,6.9a.65.65,0,0,0,1.015.812L6.484,1.056a.646.646,0,0,0,.143-.4V.644a.65.65,0,0,0-1.157-.4' fill='%2336435e'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg transform='translate(12.884 14.616) rotate(180)'%3E%3Cg id='그룹_343' data-name='그룹 343' transform='translate(0 6.659)'%3E%3Cg transform='translate(0 0)' clip-path='url(%23clip-path)'%3E%3Cpath d='M1.4,1.851,13.608,0l-1.4,10.146L0,12Z' transform='matrix(0.812, -0.584, 0.584, 0.812, -2.668, -0.242)' fill='%2336435e'/%3E%3C/g%3E%3C/g%3E%3Cg transform='translate(6.257)'%3E%3Cg transform='translate(0)' clip-path='url(%23clip-path-2)'%3E%3Crect width='10.094' height='10.378' transform='translate(-3.855 2.717) rotate(-35.754)' fill='%2336435e'/%3E%3C/g%3E%3C/g%3E%3Cg transform='translate(6.257 6.658)'%3E%3Cg transform='translate(0 0)' clip-path='url(%23clip-path-3)'%3E%3Crect width='10.094' height='10.378' transform='translate(-3.855 2.717) rotate(-35.754)' fill='%2336435e'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A") no-repeat #F1F1F1 left 14px center / 12.8px auto;
+
+
+              @media (min-width: $screen-size-pc) {
+                font-size:15px;
+                background-size:14px auto;
+                width:120px;
+                height:38px;
+              }
+            }
+
             &>div {
               position:relative;
               border:1px solid #BBBBBB;
