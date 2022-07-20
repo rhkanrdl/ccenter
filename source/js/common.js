@@ -221,6 +221,14 @@ function menu() {
       simpleLightbox($(this).parent().find("img").attr('src'),);
   });
 
+
+
+  $(".faqList li h5").on("click", function(){
+    $(".faqList li h5").removeClass("on");
+    $(this).addClass("on");
+});
+
+
 }
 
 
