@@ -4381,6 +4381,274 @@ body div#content.sub section.sub-reservation div.container div.input-form > div 
   border-radius: 50%;
   margin-right: 4px;
 }
+body div#content.sub section.sub-reservation div.container div.input-form2 h5 {
+  font-size: 17px;
+  font-weight: 800;
+  line-height: 1;
+  margin: 0 0 14px;
+}
+@media (min-width: 1030px) {
+  body div#content.sub section.sub-reservation div.container div.input-form2 h5 {
+    font-size: 19px;
+  }
+}
+body div#content.sub section.sub-reservation div.container div.input-form2 h5::before {
+  content: "";
+  display: inline-block;
+  vertical-align: bottom;
+  width: 6px;
+  height: 17px;
+  background: #818CF2;
+  margin: 0 10px 0 0;
+}
+@media (min-width: 1030px) {
+  body div#content.sub section.sub-reservation div.container div.input-form2 h5::before {
+    width: 8px;
+    height: 22px;
+  }
+}
+body div#content.sub section.sub-reservation div.container div.input-form2 div.box1 {
+  border: 1px solid #BBBBBB;
+  border-top-color: #111111;
+  padding: 12px;
+  margin: 0 0 30px;
+}
+@media (min-width: 1030px) {
+  body div#content.sub section.sub-reservation div.container div.input-form2 div.box1 {
+    padding: 20px;
+    margin: 0 0 50px;
+  }
+}
+body div#content.sub section.sub-reservation div.container div.input-form2 div.box1 h6 {
+  font-size: 15px;
+  font-weight: 500;
+  color: #111;
+  margin: 0 0 10px;
+}
+@media (min-width: 1030px) {
+  body div#content.sub section.sub-reservation div.container div.input-form2 div.box1 h6 {
+    font-size: 17px;
+    margin: 0 0 12px;
+  }
+}
+body div#content.sub section.sub-reservation div.container div.input-form2 div.box1 h6::before {
+  content: "·";
+  padding: 0 10px 0 0;
+}
+body div#content.sub section.sub-reservation div.container div.input-form2 div.box1 textarea {
+  width: 100%;
+  height: 70px;
+  padding: 15px;
+  border: 1px solid #AAAAAA;
+  font-size: 14px;
+  color: #111;
+}
+@media (min-width: 1030px) {
+  body div#content.sub section.sub-reservation div.container div.input-form2 div.box1 textarea {
+    height: 100px;
+    font-size: 17px;
+    padding: 22px;
+  }
+}
+body div#content.sub section.sub-reservation div.container div.input-form2 div.box1 textarea::-moz-placeholder {
+  font-size: 14px;
+  color: #999999;
+}
+body div#content.sub section.sub-reservation div.container div.input-form2 div.box1 textarea:-ms-input-placeholder {
+  font-size: 14px;
+  color: #999999;
+}
+body div#content.sub section.sub-reservation div.container div.input-form2 div.box1 textarea::placeholder {
+  font-size: 14px;
+  color: #999999;
+}
+@media (min-width: 1030px) {
+  body div#content.sub section.sub-reservation div.container div.input-form2 div.box1 textarea::-moz-placeholder {
+    font-size: 15px;
+  }
+  body div#content.sub section.sub-reservation div.container div.input-form2 div.box1 textarea:-ms-input-placeholder {
+    font-size: 15px;
+  }
+  body div#content.sub section.sub-reservation div.container div.input-form2 div.box1 textarea::placeholder {
+    font-size: 15px;
+  }
+}
+body div#content.sub section.sub-reservation div.container div.input-form2 div.box1 div {
+  border-bottom: 1px solid #aaa;
+}
+body div#content.sub section.sub-reservation div.container div.input-form2 div.box1 div:last-of-type {
+  border-bottom: none;
+}
+body div#content.sub section.sub-reservation div.container div.input-form2 div.box2 {
+  border: 1px solid #BBBBBB;
+  border-top-color: #111111;
+  margin: 0 0 30px;
+}
+@media (min-width: 1030px) {
+  body div#content.sub section.sub-reservation div.container div.input-form2 div.box2 {
+    margin: 0 0 50px;
+  }
+}
+body div#content.sub section.sub-reservation div.container div.input-form2 div.box2 div {
+  position: relative;
+  border-bottom: 1px solid #aaa;
+  padding: 12px 12px 12px 92px;
+  font-size: 0;
+}
+@media (min-width: 1030px) {
+  body div#content.sub section.sub-reservation div.container div.input-form2 div.box2 div {
+    padding: 20px 20px 20px 128px;
+  }
+}
+body div#content.sub section.sub-reservation div.container div.input-form2 div.box2 div:last-of-type {
+  border-bottom: none;
+}
+body div#content.sub section.sub-reservation div.container div.input-form2 div.box2 div label {
+  position: absolute;
+  left: 12px;
+  top: 20px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #111;
+}
+@media (min-width: 1030px) {
+  body div#content.sub section.sub-reservation div.container div.input-form2 div.box2 div label {
+    font-size: 17px;
+    left: 20px;
+    top: 28px;
+  }
+}
+body div#content.sub section.sub-reservation div.container div.input-form2 div.box2 div input {
+  border: 1px solid #AAAAAA;
+  height: 34px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #111;
+}
+@media (min-width: 1030px) {
+  body div#content.sub section.sub-reservation div.container div.input-form2 div.box2 div input {
+    height: 38px;
+    font-size: 17px;
+  }
+}
+body div#content.sub section.sub-reservation div.container div.input-form2 div.box2 div input.tel {
+  width: calc((100% - 24px) / 3);
+  margin-right: 12px;
+}
+@media (min-width: 1030px) {
+  body div#content.sub section.sub-reservation div.container div.input-form2 div.box2 div input.tel {
+    width: 80px;
+  }
+}
+body div#content.sub section.sub-reservation div.container div.input-form2 div.box2 div input.tel#tel3 {
+  margin-right: 0;
+}
+body div#content.sub section.sub-reservation div.container div.input-form2 div.box2 div input#code {
+  width: calc(100% - 110px);
+  margin-right: 10px;
+}
+@media (min-width: 1030px) {
+  body div#content.sub section.sub-reservation div.container div.input-form2 div.box2 div input#code {
+    width: 170px;
+  }
+}
+body div#content.sub section.sub-reservation div.container div.input-form2 div.box2 div button {
+  vertical-align: top;
+  font-size: 14px;
+  font-weight: 500;
+  width: 100px;
+  height: 34px;
+  border: 1px solid #B1B3B5;
+  background: #B1B3B5;
+  color: #fff;
+  border-radius: 4px;
+}
+@media (min-width: 1030px) {
+  body div#content.sub section.sub-reservation div.container div.input-form2 div.box2 div button {
+    width: 120px;
+    height: 38px;
+    font-size: 16px;
+  }
+}
+body div#content.sub section.sub-reservation div.container div.input-form2 div.box2 div button.on {
+  border-color: #35414B;
+  background: #3E4B57;
+}
+body div#content.sub section.sub-reservation div.container div.input-form2 div.box2 div button.send {
+  display: block;
+  margin: 10px 0 0 auto;
+}
+@media (min-width: 1030px) {
+  body div#content.sub section.sub-reservation div.container div.input-form2 div.box2 div button.send {
+    display: inline-block;
+    margin: 0 0 0 10px;
+  }
+}
+body div#content.sub section.sub-reservation div.container div.input-form2 div.box2 div p.counter {
+  font-size: 13px;
+  text-align: right;
+  color: #818CF2;
+  font-weight: 500;
+  margin: 10px 0 0;
+}
+@media (min-width: 1030px) {
+  body div#content.sub section.sub-reservation div.container div.input-form2 div.box2 div p.counter {
+    display: inline-block;
+    padding: 0 20px;
+    font-size: 15px;
+  }
+}
+body div#content.sub section.sub-reservation div.container div.input-form2 div.box2 div p.counter strong {
+  font-weight: inherit;
+}
+body div#content.sub section.sub-reservation div.container div.input-form2 ul.detail-box {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border: 1px solid #aaa;
+  margin-bottom: 20px;
+  border-top: 1px solid #111;
+}
+body div#content.sub section.sub-reservation div.container div.input-form2 ul.detail-box li {
+  display: flex;
+  border-bottom: 1px solid #aaa;
+}
+body div#content.sub section.sub-reservation div.container div.input-form2 ul.detail-box li:last-child {
+  border-bottom: none;
+}
+body div#content.sub section.sub-reservation div.container div.input-form2 ul.detail-box li p,
+body div#content.sub section.sub-reservation div.container div.input-form2 ul.detail-box li span {
+  margin: 0;
+  padding: 15px;
+  word-break: keep-all;
+  font-size: 15px;
+}
+@media (min-width: 1030px) {
+  body div#content.sub section.sub-reservation div.container div.input-form2 ul.detail-box li p,
+body div#content.sub section.sub-reservation div.container div.input-form2 ul.detail-box li span {
+    font-size: 17px;
+    padding: 15px 20px;
+  }
+}
+body div#content.sub section.sub-reservation div.container div.input-form2 ul.detail-box li p strong,
+body div#content.sub section.sub-reservation div.container div.input-form2 ul.detail-box li span strong {
+  color: #F9588A;
+}
+body div#content.sub section.sub-reservation div.container div.input-form2 ul.detail-box li p {
+  flex-basis: 130px;
+  min-width: 130px;
+  border-right: 1px solid #aaa;
+}
+@media (min-width: 1030px) {
+  body div#content.sub section.sub-reservation div.container div.input-form2 ul.detail-box li p {
+    flex-basis: 170px;
+    min-width: 170px;
+  }
+}
+body div#content.sub section.sub-reservation div.container div.input-form2 ul.detail-box li p::before {
+  content: "·";
+  padding-right: 6px;
+}
 body div#content.sub section.sub-reservation div.container div.reservation-list div.filter {
   font-size: 0;
   margin: 0 0 30px;
@@ -4921,6 +5189,41 @@ body div#content.sub section.sub-reservation div.container div.button-set button
   background: #F9588A;
   border-color: #C2033E;
   box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.3);
+}
+body div#content.sub section.sub-reservation div.container div.button-set2 {
+  text-align: center;
+  font-size: 0;
+  margin: 20px 0;
+}
+body div#content.sub section.sub-reservation div.container div.button-set2 button {
+  font-size: 19px;
+  font-weight: 500;
+  color: #555555;
+  background: #F6F6F6;
+  width: 80px;
+  height: 52px;
+  border: 1px solid #929292;
+  border-radius: 4px;
+  margin: 0 10px;
+  box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.3);
+}
+@media (min-width: 1030px) {
+  body div#content.sub section.sub-reservation div.container div.button-set2 button {
+    font-size: 20px;
+    width: 100px;
+    height: 60px;
+  }
+}
+body div#content.sub section.sub-reservation div.container div.button-set2 button.submit {
+  width: 160px;
+  border-color: #D74C77;
+  background: #F9588A;
+  color: #fff;
+}
+@media (min-width: 1030px) {
+  body div#content.sub section.sub-reservation div.container div.button-set2 button.submit {
+    width: 200px;
+  }
 }
 body div#content.sub section.sub-board {
   padding: 32px 0;
@@ -5514,60 +5817,36 @@ body div#content.sub section.sub-member {
     padding: 46px 0;
   }
 }
-body div#content.sub section.sub-member div.login div.login-type {
-  font-size: 0;
-  display: flex;
+@media (min-width: 1030px) {
+  body div#content.sub section.sub-member div.login {
+    font-size: 0;
+  }
+}
+body div#content.sub section.sub-member div.login h4 {
   margin: 0 0 40px;
-  padding: 0;
-  border-bottom: 1px solid #35414B;
-  text-align: center;
 }
-@media (min-width: 1030px) {
-  body div#content.sub section.sub-member div.login div.login-type {
-    display: block;
-    margin: 0 0 60px;
-  }
+body div#content.sub section.sub-member div.login h4 small {
+  margin: 14px 0 0;
 }
-body div#content.sub section.sub-member div.login div.login-type span,
-body div#content.sub section.sub-member div.login div.login-type a {
-  display: inline-block;
-  vertical-align: top;
-  flex-grow: 1;
-  font-size: 17px;
-  color: #555555;
-  background: #E3E3E3;
-  line-height: 56px;
-  border: 1px solid #F8F8F8;
-  border-bottom: none;
-}
-@media (min-width: 1030px) {
-  body div#content.sub section.sub-member div.login div.login-type span,
-body div#content.sub section.sub-member div.login div.login-type a {
-    width: 240px;
-    line-height: 62px;
-    font-size: 19px;
-  }
-}
-body div#content.sub section.sub-member div.login div.login-type span {
-  border-color: #35414B;
-  background: #3E4B57;
-  font-weight: 500;
-  color: #fff;
-  box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.2);
-}
-body div#content.sub section.sub-member div.login fieldset {
+body div#content.sub section.sub-member div.login div.box {
   position: relative;
   border: none;
   margin: 0;
-  padding: 0;
+  padding: 20px 10px 50px;
+  text-align: center;
+  border-bottom: 1px solid #AAAAAA;
 }
 @media (min-width: 1030px) {
-  body div#content.sub section.sub-member div.login fieldset {
-    width: 400px;
+  body div#content.sub section.sub-member div.login div.box {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
     margin: 0 auto;
+    padding: 50px 66px;
+    border-bottom: none;
   }
 }
-body div#content.sub section.sub-member div.login fieldset p {
+body div#content.sub section.sub-member div.login div.box p {
   text-align: center;
   margin: 0 0 20px;
   font-size: 15px;
@@ -5575,13 +5854,13 @@ body div#content.sub section.sub-member div.login fieldset p {
   color: #F9588A;
 }
 @media (min-width: 1030px) {
-  body div#content.sub section.sub-member div.login fieldset p {
+  body div#content.sub section.sub-member div.login div.box p {
     margin: 0 0 30px;
     font-size: 17px;
   }
 }
-body div#content.sub section.sub-member div.login fieldset input[type=text],
-body div#content.sub section.sub-member div.login fieldset input[type=password] {
+body div#content.sub section.sub-member div.login div.box input[type=text],
+body div#content.sub section.sub-member div.login div.box input[type=password] {
   display: block;
   width: 100%;
   border: 1px solid #888888;
@@ -5594,105 +5873,77 @@ body div#content.sub section.sub-member div.login fieldset input[type=password] 
   outline: none;
 }
 @media (min-width: 1030px) {
-  body div#content.sub section.sub-member div.login fieldset input[type=text],
-body div#content.sub section.sub-member div.login fieldset input[type=password] {
+  body div#content.sub section.sub-member div.login div.box input[type=text],
+body div#content.sub section.sub-member div.login div.box input[type=password] {
     height: 58px;
     font-size: 19px;
     padding: 0 18px;
   }
 }
-body div#content.sub section.sub-member div.login fieldset input[type=text]::-moz-placeholder, body div#content.sub section.sub-member div.login fieldset input[type=password]::-moz-placeholder {
+body div#content.sub section.sub-member div.login div.box input[type=text]::-moz-placeholder, body div#content.sub section.sub-member div.login div.box input[type=password]::-moz-placeholder {
   font-size: 15px;
   color: #888888;
 }
-body div#content.sub section.sub-member div.login fieldset input[type=text]:-ms-input-placeholder, body div#content.sub section.sub-member div.login fieldset input[type=password]:-ms-input-placeholder {
+body div#content.sub section.sub-member div.login div.box input[type=text]:-ms-input-placeholder, body div#content.sub section.sub-member div.login div.box input[type=password]:-ms-input-placeholder {
   font-size: 15px;
   color: #888888;
 }
-body div#content.sub section.sub-member div.login fieldset input[type=text]::placeholder,
-body div#content.sub section.sub-member div.login fieldset input[type=password]::placeholder {
+body div#content.sub section.sub-member div.login div.box input[type=text]::placeholder,
+body div#content.sub section.sub-member div.login div.box input[type=password]::placeholder {
   font-size: 15px;
   color: #888888;
 }
 @media (min-width: 1030px) {
-  body div#content.sub section.sub-member div.login fieldset input[type=text]::-moz-placeholder, body div#content.sub section.sub-member div.login fieldset input[type=password]::-moz-placeholder {
+  body div#content.sub section.sub-member div.login div.box input[type=text]::-moz-placeholder, body div#content.sub section.sub-member div.login div.box input[type=password]::-moz-placeholder {
     font-size: 17px;
   }
-  body div#content.sub section.sub-member div.login fieldset input[type=text]:-ms-input-placeholder, body div#content.sub section.sub-member div.login fieldset input[type=password]:-ms-input-placeholder {
+  body div#content.sub section.sub-member div.login div.box input[type=text]:-ms-input-placeholder, body div#content.sub section.sub-member div.login div.box input[type=password]:-ms-input-placeholder {
     font-size: 17px;
   }
-  body div#content.sub section.sub-member div.login fieldset input[type=text]::placeholder,
-body div#content.sub section.sub-member div.login fieldset input[type=password]::placeholder {
+  body div#content.sub section.sub-member div.login div.box input[type=text]::placeholder,
+body div#content.sub section.sub-member div.login div.box input[type=password]::placeholder {
     font-size: 17px;
   }
 }
-body div#content.sub section.sub-member div.login fieldset input[type=text]:focus,
-body div#content.sub section.sub-member div.login fieldset input[type=password]:focus {
+body div#content.sub section.sub-member div.login div.box input[type=text]:focus,
+body div#content.sub section.sub-member div.login div.box input[type=password]:focus {
   border-color: #111111;
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
 }
-body div#content.sub section.sub-member div.login fieldset div.checkbox {
-  text-align: right;
-  font-size: 0;
-}
-body div#content.sub section.sub-member div.login fieldset div.checkbox input[type=checkbox] {
-  width: 18px;
-  height: 18px;
-  margin: 0 6px 0 26px;
-}
-@media (min-width: 1030px) {
-  body div#content.sub section.sub-member div.login fieldset div.checkbox input[type=checkbox] {
-    width: 20px;
-    height: 20px;
-  }
-}
-body div#content.sub section.sub-member div.login fieldset div.checkbox label {
-  display: inline-block;
-  vertical-align: top;
-  line-height: 18px;
-  font-size: 14px;
-  color: #555555;
-}
-@media (min-width: 1030px) {
-  body div#content.sub section.sub-member div.login fieldset div.checkbox label {
-    font-size: 16px;
-  }
-}
-body div#content.sub section.sub-member div.login fieldset button.login {
+body div#content.sub section.sub-member div.login div.box button.login {
   width: 100%;
-  margin: 25px 0 0;
+  margin: 10px 0 0;
   height: 62px;
   border: 1px solid #D74C77;
   background: #F9588A;
   color: #fff;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 500;
 }
 @media (min-width: 1030px) {
-  body div#content.sub section.sub-member div.login fieldset button.login {
+  body div#content.sub section.sub-member div.login div.box button.login {
     height: 68px;
-    font-size: 20px;
+    font-size: 19px;
   }
 }
-body div#content.sub section.sub-member div.login fieldset button.kakao-login {
+body div#content.sub section.sub-member div.login div.box button.kakao-login {
   position: relative;
   width: 100%;
-  margin: 35px 0 0;
-  height: 53px;
+  height: 62px;
   border: 1px solid #F6DD00;
   background: #FEE500;
   color: #111111;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 500;
   padding-left: 36px;
 }
 @media (min-width: 1030px) {
-  body div#content.sub section.sub-member div.login fieldset button.kakao-login {
+  body div#content.sub section.sub-member div.login div.box button.kakao-login {
     height: 58px;
     padding-left: 40px;
   }
 }
-body div#content.sub section.sub-member div.login fieldset button.kakao-login::before {
+body div#content.sub section.sub-member div.login div.box button.kakao-login::before {
   content: "";
   display: block;
   position: absolute;
@@ -5705,10 +5956,20 @@ body div#content.sub section.sub-member div.login fieldset button.kakao-login::b
   background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='33.104' height='30.412' viewBox='0 0 33.104 30.412'%3E%3Cdefs%3E%3CclipPath id='clip-path'%3E%3Crect  width='33.104' height='30.412' fill='none'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg clip-path='url(%23clip-path)'%3E%3Cpath id='패스_1278' data-name='패스 1278' d='M16.552,0C7.411,0,0,5.858,0,13.085c0,4.7,3.139,8.827,7.852,11.133C7.506,25.51,6.6,28.9,6.417,29.625c-.225.9.329.888.693.647.285-.19,4.535-3.081,6.369-4.328a20.921,20.921,0,0,0,3.073.226c9.141,0,16.552-5.858,16.552-13.085S25.693,0,16.552,0' fill='%23371c1d'/%3E%3C/g%3E%3C/svg%3E%0A") no-repeat center/100% auto;
 }
 @media (min-width: 1030px) {
-  body div#content.sub section.sub-member div.login fieldset button.kakao-login::before {
+  body div#content.sub section.sub-member div.login div.box button.kakao-login::before {
     width: 36.4px;
     height: 33.5px;
     margin-left: -116px;
+    font-size: 19px;
+  }
+}
+body div#content.sub section.sub-member div.login div.box + div.box {
+  padding-top: 50px;
+  border-bottom: none;
+}
+@media (min-width: 1030px) {
+  body div#content.sub section.sub-member div.login div.box + div.box {
+    border-left: 1px solid #AAAAAA;
   }
 }
 body div#content.sub section.sub-member div.login ul.links {

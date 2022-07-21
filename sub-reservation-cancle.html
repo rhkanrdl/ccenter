@@ -134,56 +134,119 @@
             </section>
 
 
-            <section class="sub-member">
+            <section class="sub-reservation">
                 <div class="container">
 
 
-                    <div class="login">
+                    <h4 class="stitle">예매취소</h4>
 
-                        <div class="box">
+                    <div class="input-form2">
 
+                        <h5>환불신청</h5>
 
-                            <h4 class="stitle">
-                                로그인
-                            
-                                <small>
-                                    카카오 계정으로 로그인합니다.
-                                </small>
-                            </h4>
+                        <div class="box1">
+                            <h6>환불신청사유</h6>
 
-
-                            <button class="kakao-login">
-                                카카오 계정으로 로그인
-                            </button>
+                            <textarea placeholder="주문취소 사유 및 취소요청 사항을 입력해주세요."></textarea>
                         </div>
 
-                        <div class="box">
+                        <h5>본인인증</h5>
 
+                        <div class="box2">
 
-                            <h4 class="stitle">
-                                비회원 예매확인
+                            <div>
+                                <label for="tel1">휴대폰번호</label>
 
-                                <small>
-                                    예매자명과 예매시 입력한 휴대폰번호를 입력하세요.
-                                </small>
-                            </h4>
+                                <input id="tel1" class="tel" type="text">
+                                <input id="tel2" class="tel" type="text">
+                                <input id="tel3" class="tel" type="text">
 
+                                <button class="send on">인증번호 전송</button>
+                            </div>
 
+                            <div>
+                                <label for="code">인증번호</label>
 
-                            <label class="sr-only" for="name">이름</label>
-                            <input id="name" type="text" placeholder="이름">
+                                <input id="code" type="text">
 
-                            <label class="sr-only" for="phone">휴대폰번호</label>
-                            <input id="phone" type="password" placeholder="휴대폰번호">
+                                <button class="verify">인증번호 확인</button>
+                                <!-- 인증번호가 입력되면, 버튼에 ON 클래스 추가 -->
 
-                            <button class="login">
-                                예매확인
-                            </button>
+                                <p class="counter">
+                                    남은시간 : <strong>07:56</strong>
+                                </p>
+                            </div>
                         </div>
+
+                        <h5>환불정보</h5>
+
+                        <ul class="detail-box">
+                            <li>
+                                <p>공연(전시)명</p>
+                                <span>
+                                    <대관공연> 『2022년 제6회 국제합창축제 앤 심포지엄』『2022년 제6회 국제합창축제 앤 심포지엄』『2022년 제6회 국제합창축제 앤 심포지엄』
+                                </span>
+                            </li>
+                            <li>
+                                <p>결제금액</p>
+                                <span>
+                                    105,000원
+                                </span>
+                            </li>
+                            <li>
+                                <p> 차감액(위약금)</p>
+                                <span>
+                                    (-500원)
+                                </span>
+                            </li>
+                            <li>
+                                <p>환불(예정)금액</p>
+                                <span>
+                                    <strong>104,500원</strong>
+                                </span>
+                            </li>
+                        </ul>
+
+
+
+
 
 
                     </div>
 
+
+                    <div class="information">
+                        <strong>◎ 예매취소 안내</strong>
+                        <ul>
+                            <li>해당 상품을 취소하려는 사유와 기타 요구되는 정보를
+                                정확하게 기재합니다.
+                            </li>
+                            <li>할인쿠폰, 즉시할인으로 인해 환불 금액이 다를 수 있
+                                습니다.
+                            </li>
+                            <li>환불완료 후 취소내역에서 자세한 환불 내역을 확인하
+                                실 수 있습니다.
+                            </li>
+                            <li>예매 취소시 환불 계좌는 예금주가 예매자와 동일하여
+                                야 합니다. 
+                            </li>
+                        </ul>
+
+
+
+                    </div>
+
+
+                    <div class="button-set2">
+                        <button>닫기</button>
+                        <button class="submit">신청하기</button>
+
+                        <!--
+                        옵션선택 완료시 on 클래스명
+                        <button class="on">다음 ></button>
+
+                        -->
+                    </div>
 
 
                 </div>
