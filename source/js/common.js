@@ -179,11 +179,11 @@ function menu() {
 
 
 
-    $(".map-check .outline p").on("click", function(){
+    $(".map-check .outline p button").on("click", function(){
 
-      if ($(this).is(".seat-r, .seat-s, .seat-n, .seat-disabled")) {
+      if ($(this).parent().is(".seat-r, .seat-s, .seat-n, .seat-disabled")) {
 
-        $(this).toggleClass("checked");
+        $(this).parent().toggleClass("checked");
 
       }
     });
