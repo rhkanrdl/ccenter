@@ -226,7 +226,16 @@ function menu() {
   $(".faqList li h5").on("click", function(){
     $(".faqList li h5").removeClass("on");
     $(this).addClass("on");
+
+
+
+
 });
+
+
+$(".sub-calendar table td").has("div").addClass("has");
+$(".sub-calendar table td").has("p").addClass("day");
+
 
 
 }
