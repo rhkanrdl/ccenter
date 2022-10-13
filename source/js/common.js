@@ -181,7 +181,7 @@ function menu() {
 
     $(".map-check .outline p button").on("click", function(){
 
-      if ($(this).parent().is(".seat-r, .seat-s, .seat-n, .seat-disabled, .seat")) {
+      if ($(this).parent().is(".seat-r, .seat-s, .seat-n, .seat-disabled")) {
 
         $(this).parent().toggleClass("checked");
 

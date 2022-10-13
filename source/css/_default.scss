@@ -842,6 +842,87 @@ article.layer-popup {
 	}
 }
 
+div.alert-pop {
+	display:none;
+	position:fixed;
+	z-index:10000;
+	top:0;
+	right:0;
+	left:0;
+	bottom:0;
+	background:rgba(0,0,0,.3);
+
+
+	&.on {
+		display:block;
+	}
+
+	div.outline {
+		position:absolute;
+		left:15px;
+		right:15px;
+		top:50%;
+		transform:translateY(-50%);
+		background:#fff;
+		text-align:center;
+		padding:48px 0 20px;
+		color:#111111;
+		font-size:16px;
+		font-weight:500;
+		word-break:keep-all;
+		border:1px solid #707070;
+		@include drop-shadow($x:0,$y: 0, $blur: 15px, $spread: 0, $alpha: 0.16);
+	
+		@media (min-width: $screen-size-pc) {
+			width:400px;
+			right:auto;
+			left:50%;
+			margin-left:-200px;
+			font-size:17px;
+		  }
+
+		p {
+			margin:0 0 6px;
+		}
+
+		div.buttons {
+			margin-top:20px;
+			font-size:0;
+
+			button {
+				width:120px;
+				height:36px;
+				border-radius:4px;
+				margin:5px;
+				border:1px solid #8E8E8E;
+				font-size:17px;
+				font-weight:500;
+				color:#555555;
+				background:#EEEEEE;
+
+				&.main {
+					color:#fff;
+					border-color:#D74C77;
+					background:#F9588A;
+				}
+			}
+		}
+
+		button.close {
+			position:absolute;
+			right:15px;
+			top:15px;
+			width:14px;
+			height:14px;
+			border:none;
+			font-size:0;
+			background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 14 14'%3E%3Cpath id='패스_21504' data-name='패스 21504' d='M2151.612,1904.577a.954.954,0,0,0-1.35,0l-5.371,5.371-5.37-5.371a.954.954,0,0,0-1.35,1.35l5.371,5.371-5.371,5.371a.954.954,0,0,0,1.35,1.35l5.37-5.371,5.371,5.371a.954.954,0,0,0,1.35-1.35l-5.371-5.371,5.371-5.371A.954.954,0,0,0,2151.612,1904.577Z' transform='translate(-2137.891 -1904.297)' fill='%23555'/%3E%3C/svg%3E%0A") no-repeat center / 100% auto;
+		}
+
+		
+	}
+}
+
 
 
 
