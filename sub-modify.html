@@ -54,61 +54,87 @@
 
 
 
-
         <!-- S:mainContent -->
         <div id="content" class="sub">
 
-
-            <section class="sub-member">
+            <section class="sub-reservation">
                 <div class="container">
 
 
-                    <div class="login">
-
-                        <div class="box">
+                    <h4 class="stitle">마이페이지</h4>
 
 
-                            <h4 class="stitle">
-                                로그인
-                            
-                                <small>
-                                    카카오 계정으로 로그인합니다.
-                                </small>
-                            </h4>
+                    <div class="mypage-tabs">
+                        <button data="tab01" class="on">회원정보수정</button>
+                        <button data="tab02">공연예매내역</button>
+                        <button data="tab03">전시예매내역</button>
+                    </div>
 
+                    <div class="input-form2">
 
-                            <button class="kakao-login">
-                                카카오 계정으로 로그인
-                            </button>
+                        <h5>
+                            개인정보 입력
+                        </h5>
+
+                        <div class="box2">
+
+                            <div>
+                                <label class="pilsu" for="name">이름</label>
+
+                                <input id="name" type="text">
+
+                            </div>
+
+                            <div>
+                                <label for="tel1">휴대폰번호</label>
+
+                                <input id="tel1" class="tel" type="text">
+                                <input id="tel2" class="tel" type="text">
+                                <input id="tel3" class="tel" type="text">
+
+                                <button class="send on">인증번호 전송</button>
+                            </div>
+
+                            <div>
+                                <label for="code">인증번호</label>
+
+                                <input id="code" type="text">
+
+                                <button class="verify">인증번호 확인</button>
+                                <!-- 인증번호가 입력되면, 버튼에 ON 클래스 추가 -->
+
+                                <p class="counter">
+                                    남은시간 : <strong>07:56</strong>
+                                </p>
+                            </div>
+
+                            <div>
+                                <label for="sms">홍보문자수신여부</label>
+
+                                <div class="radio-box">
+                                    <input name="sms" id="sms-ok" type="radio">
+                                    <label for="sms-ok">동의</label>
+                                    <input name="sms" id="sms-no" type="radio">
+                                    <label for="sms-no">비동의</label>
+
+                                </div>
+
+                            </div>
+
                         </div>
 
-                        <div class="box">
 
-
-                            <h4 class="stitle">
-                                비회원 예매확인
-
-                                <small>
-                                    예매자명과 예매시 입력한 휴대폰번호를 입력하세요.
-                                </small>
-                            </h4>
-
-
-
-                            <label class="sr-only" for="name">이름</label>
-                            <input id="name" type="text" placeholder="이름">
-
-                            <label class="sr-only" for="phone">휴대폰번호</label>
-                            <input id="phone" type="password" placeholder="휴대폰번호">
-
-                            <button class="login">
-                                예매확인
-                            </button>
-                        </div>
 
 
                     </div>
 
+
+
+                    <div class="button-set2">
+                        <button class="submit">회원가입</button>
+
+
+                    </div>
 
 
                 </div>

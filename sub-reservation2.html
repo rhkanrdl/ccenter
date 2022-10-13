@@ -54,63 +54,97 @@
 
 
 
-
         <!-- S:mainContent -->
         <div id="content" class="sub">
 
 
-            <section class="sub-member">
+            <section class="sub-reservation">
                 <div class="container">
 
 
-                    <div class="login">
+                    <div class="head">
 
-                        <div class="box">
+                        <p class="image">
+                            <img src="source/images/temp01.png" alt="">
+                        </p>
 
+                        <h4>
+                            <small>
+                                <대관공연>
+                            </small>
+                                『2022년 제6회 국제합창축제 앤 심포지엄』
+                        </h4>
 
-                            <h4 class="stitle">
-                                로그인
-                            
-                                <small>
-                                    카카오 계정으로 로그인합니다.
-                                </small>
-                            </h4>
+                        <ul>
+                            <li>
+                                <strong class="sr-only">날짜</strong>2022-03-26 ~ 2022-03-27</li>
+                            <li>
+                                <strong class="sr-only">시간</strong>19:00 / 21:00</li>
+                            <li>
+                                <strong class="sr-only">장소</strong>대극장</li>
+                        </ul>
+                    </div>
 
+                    <div class="select-option">
 
-                            <button class="kakao-login">
-                                카카오 계정으로 로그인
-                            </button>
+                        <div class="date on"> <!-- on 클래스명으로 펼치고 접기 -->
+                            <h5>날짜선택</h5>
+
+                            <div class="select-outline">
+                                <select>
+                                    <option>관람일자를 선택하세요.</option>
+                                </select>
+                            </div>
                         </div>
 
-                        <div class="box">
+                        <div class="time">
+                            <h5>회차선택</h5>
 
-
-                            <h4 class="stitle">
-                                비회원 예매확인
-
-                                <small>
-                                    예매자명과 예매시 입력한 휴대폰번호를 입력하세요.
-                                </small>
-                            </h4>
-
-
-
-                            <label class="sr-only" for="name">이름</label>
-                            <input id="name" type="text" placeholder="이름">
-
-                            <label class="sr-only" for="phone">휴대폰번호</label>
-                            <input id="phone" type="password" placeholder="휴대폰번호">
-
-                            <button class="login">
-                                예매확인
-                            </button>
+                            <div class="select-outline">
+                                <select>
+                                    <option>10:00 (잔여 : 29 / 60)</option>
+                                </select>
+                            </div>
                         </div>
+
+                        <div class="people on">
+                            <h5>인원수선택</h5>
+
+                            <div class="select-outline">
+                                <span>성인</span>
+                                <select>
+                                    <option>10:00 (잔여 : 29 / 60)</option>
+                                </select>
+                            </div>
+                        </div>
+
+
 
 
                     </div>
 
+                    <div class="total">
+                        <h5>결제예정금액</h5>
+
+                        <p>
+                            <strong>5,000</strong>
+                            원
+                        </p>
+                    </div>
 
 
+
+
+                    <div class="button-set">
+                        <button class="sub">취소</button>
+                        <button>다음 ></button>
+
+                        <!--
+                        옵션선택 완료시 on 클래스명
+                        <button class="on">다음 ></button>
+
+                        -->
+                    </div>
                 </div>
                 
 
@@ -163,4 +197,4 @@
 
     </body>
 
-</h
+</html>

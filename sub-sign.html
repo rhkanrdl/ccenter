@@ -54,61 +54,105 @@
 
 
 
-
         <!-- S:mainContent -->
         <div id="content" class="sub">
 
-
-            <section class="sub-member">
+            <section class="sub-reservation">
                 <div class="container">
 
 
-                    <div class="login">
+                    <h4 class="stitle">회원가입</h4>
 
-                        <div class="box">
+                    <div class="input-form2">
 
+                        <h5>개인정보 제공 동의</h5>
 
-                            <h4 class="stitle">
-                                로그인
-                            
-                                <small>
-                                    카카오 계정으로 로그인합니다.
-                                </small>
-                            </h4>
+                        <div class="box-agree">
+                            <div class="text">
+<p>○ 수집하는 개인정보 항목</p>
+<p>· 필수항목 : 성명, 개인식별번호</p>
+<p>※비회원 로그인으로 소관 업무 수행시 수집</p>
+<p>· 자동수집항목 : 서버 접근 기록, 통신사실확인 정보, 중복회원가입방지를 위한 본인인증센터에서 발급하는 개인별 인증
+코드 등</p>
+<p>○ 개인정보의 수집 및 이용목적</p>
+<p>...</p>
+<p>...</p>
+<p>...</p>
+<p>...</p>
+<p>...</p>
+<p>...</p>
 
-
-                            <button class="kakao-login">
-                                카카오 계정으로 로그인
-                            </button>
+                            </div>
+                            <div class="agree">
+                                <input id="agree01" type="checkbox">
+                                <label for="agree01">약관에 동의합니다.</label>
+                            </div>
                         </div>
 
-                        <div class="box">
+                        <h5>
+                            개인정보 입력
+                            <small>* 회원가입을 위한 필수정보입니다. 정확한 정보를 입력해주세요.</small>
+                        </h5>
 
+                        <div class="box2">
 
-                            <h4 class="stitle">
-                                비회원 예매확인
+                            <div>
+                                <label class="pilsu" for="name">이름</label>
 
-                                <small>
-                                    예매자명과 예매시 입력한 휴대폰번호를 입력하세요.
-                                </small>
-                            </h4>
+                                <input id="name" type="text">
 
+                            </div>
 
+                            <div>
+                                <label for="tel1">휴대폰번호</label>
 
-                            <label class="sr-only" for="name">이름</label>
-                            <input id="name" type="text" placeholder="이름">
+                                <input id="tel1" class="tel" type="text">
+                                <input id="tel2" class="tel" type="text">
+                                <input id="tel3" class="tel" type="text">
 
-                            <label class="sr-only" for="phone">휴대폰번호</label>
-                            <input id="phone" type="password" placeholder="휴대폰번호">
+                                <button class="send on">인증번호 전송</button>
+                            </div>
 
-                            <button class="login">
-                                예매확인
-                            </button>
+                            <div>
+                                <label for="code">인증번호</label>
+
+                                <input id="code" type="text">
+
+                                <button class="verify">인증번호 확인</button>
+                                <!-- 인증번호가 입력되면, 버튼에 ON 클래스 추가 -->
+
+                                <p class="counter">
+                                    남은시간 : <strong>07:56</strong>
+                                </p>
+                            </div>
+
+                            <div>
+                                <label for="sms">홍보문자수신여부</label>
+
+                                <div class="radio-box">
+                                    <input name="sms" id="sms-ok" type="radio">
+                                    <label for="sms-ok">동의</label>
+                                    <input name="sms" id="sms-no" type="radio">
+                                    <label for="sms-no">비동의</label>
+
+                                </div>
+
+                            </div>
+
                         </div>
+
+
 
 
                     </div>
 
+
+
+                    <div class="button-set2">
+                        <button class="submit">회원가입</button>
+
+
+                    </div>
 
 
                 </div>

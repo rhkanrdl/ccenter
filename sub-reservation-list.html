@@ -29,58 +29,25 @@
         <!-- S:header -->
         <header id="header">
             <div class="container">
-                <h1><a href="/">제주특별자치도 문화예술진흥원</a></h1>
+                <h1><a href="/"><span>제주특별자치도 문화예술진흥원</span> 공연예매</a></h1>
 
 
-                <button class="main-menu">
-                    메뉴호출버튼
-                </button> 
+                <div class="tools">
+                    <a class="login" href="">로그인</a>
+                </div>
+    
+
             </div>
         </header>
         <!-- E:header -->
         
         <!-- S:main_menu -->
         <nav id="main-menu" class="menu">
-            <h2>제주특별자치도 문화예술진흥원</h2>
 
+            <a class="on" href="">공연/전시</a>
+            <a href="">공지사항</a>
+            <a href="">마이페이지</a>
 
-            <div class="tools">
-                <a href="">회원가입</a>
-                <a class="login" href="">로그인</a>
-            </div>
-
-
-            <div class="menus">
-                <ul>
-                    <li>
-                        <h3><a href="">공연전시</a></h3>
-
-                        <ul>
-                            <li><a class="active" href="">공연일정</a></li>
-                            <li><a href="">공연목록</a></li>
-                            <li><a href="">전시일정</a></li>
-                            <li><a href="">전시목록</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h3><a href="">커뮤니티</a></h3>
-
-                        <ul>
-                            <li><a href="">공지사항</a></li>
-                            <li><a href="">이용후기</a></li>
-                            <li><a href="">FAQ</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h3><a href="">예약확인</a></h3>
-                    </li>
-                </ul>
-            </div>
-
-            <button class="close">
-                <i class='bx bx-x'></i>
-                메뉴닫기
-            </button>
              
         </nav>
         <!-- E:main_menu -->
@@ -88,50 +55,8 @@
 
 
 
-
         <!-- S:mainContent -->
         <div id="content" class="sub">
-
-            <section class="sub-navigation">
-                <div class="container">
-
-
-                    <div class="depth1">
-                        <button>공연전시</button>
-                        <ul>
-                            <li>
-                                <a href="">공연전시</a>
-                            </li>
-                            <li>
-                                <a href="">커뮤니티</a>
-                            </li>
-                            <li>
-                                <a href="">예약확인</a>
-                            </li>
-                        </ul>
-                    </div>
-
-
-                    <div class="depth2">
-                        <button>공연일정</button>
-                        <ul>
-                            <li>
-                                <a href="">공연일정</a>
-                            </li>
-                            <li>
-                                <a href="">공연목록</a>
-                            </li>
-                            <li>
-                                <a href="">전시일정</a>
-                            </li>
-                            <li>
-                                <a href="">전시목록</a>
-                            </li>
-                        </ul>
-                    </div>
-                    
-                </div>
-            </section>
 
 
             <section class="sub-reservation">
@@ -140,7 +65,14 @@
 
                     <div class="reservation-list">
 
-                        <h4 class="stitle">예약확인</h4>
+                        <h4 class="stitle">마이페이지</h4>
+
+
+                        <div class="mypage-tabs">
+                            <button data="tab01">회원정보수정</button>
+                            <button data="tab02" class="on">공연예매내역</button>
+                            <button data="tab03">전시예매내역</button>
+                        </div>
 
 
 
@@ -148,8 +80,7 @@
                         <div class="filter">
                             <strong>주문일자 조회</strong>
 
-                            <div>
-
+                            <div class="period">
                                 <input name="period" id="period01" type="radio" checked>
                                 <label for="period01">오늘</label>
 
@@ -165,14 +96,24 @@
                                 <input name="period" id="period05" type="radio">
                                 <label for="period05">6개월</label>
                             </div>
-                        </div>
 
-                        <div class="tabs">
-                            <button data="tab01" class="on">전체</button>
-                            <button data="tab02">관람전</button>
-                            <button data="tab03">관람종료</button>
-                        </div>
+                            <div class="calendar">
+                                <strong>조회기간</strong>
 
+                                <div class="outline">
+                                    <input type="text" value="2022년 10월 30일">
+                                    <button>날짜선택</button>
+                                    <span>-</span>
+                                    <input type="text" value="2022년 10월 30일">
+                                    <button>날짜선택</button>
+                                </div>
+                                <button class="submit">조회</button>
+                            </div>
+
+
+
+
+                        </div>
                         <div class="data">
 
                             <p class="image">
