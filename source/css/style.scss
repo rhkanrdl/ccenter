@@ -2681,6 +2681,19 @@ body {
                 }
 
 
+                span {
+                  position:absolute;
+                  left:0;
+                  top:0;
+                  line-height:44px;
+                  width:50px;
+                  font-weight:500;
+                  font-size:14px;
+                  color:#111;
+                  text-align:center;
+                  background:#eee;
+                }
+
 
                 select {
                   width:100%;
@@ -2699,6 +2712,73 @@ body {
                   &::-ms-expand {
                       display: none;
                   }
+
+                  @media (min-width: $screen-size-pc) {
+                    height:50px;
+                    font-size:20px;
+                  }
+                }
+              }
+
+              div.people-outline {
+                border:1px solid #AAAAAA;
+                position:relative;
+                padding:0 40px 0 50px;
+                margin:0 0 10px;
+
+                @media (min-width: $screen-size-pc) {
+                  display:inline-block;
+                  width:200px;
+                  padding:0 40px 0 80px;
+                  margin:0 5px 0 0;
+                }
+
+                &::after {
+                  content:"명";
+                  display:block;
+                  position:absolute;
+                  right:10px;
+                  top:0;
+                  line-height:44px;
+                  font-size: 18px;
+                  font-weight: 700;
+                  color:#777;
+
+                  @media (min-width: $screen-size-pc) {
+                    line-height:50px;
+                    font-size:20px;
+                  }
+                }
+
+
+                span {
+                  position:absolute;
+                  left:0;
+                  top:0;
+                  line-height:44px;
+                  width:50px;
+                  font-weight:500;
+                  font-size:14px;
+                  color:#111;
+                  text-align:center;
+                  background:#eee;
+
+                  @media (min-width: $screen-size-pc) {
+                    line-height:50px;
+                    width:80px;
+                    font-size:16px;
+                  }
+                }
+
+
+                input {
+                  width:100%;
+                  height:44px;
+                  padding:0 20px;
+                  font-size:18px;
+                  font-weight:700;
+                  color:#555555;
+                  border:none;
 
                   @media (min-width: $screen-size-pc) {
                     height:50px;
@@ -3814,11 +3894,17 @@ body {
 
     
               @media (min-width: $screen-size-pc) {
-
+                position:relative;
+                margin:50px 0;
               }
 
               div.period {
                 margin:0 0 16px;
+    
+                @media (min-width: $screen-size-pc) {
+                  margin:0;
+                  line-height:36px;
+                }
 
                 input {
                   display:none;
@@ -3828,6 +3914,11 @@ body {
                   font-size:14px;
                   color:#555555;
                   margin-right:15px;
+    
+                  @media (min-width: $screen-size-pc) {
+                    font-size:16px;
+                    margin-right:16px;
+                  }
 
                   &::before {
                     content:"·";
@@ -3842,6 +3933,12 @@ body {
               }
 
               div.calendar {
+    
+                @media (min-width: $screen-size-pc) {
+                  position:absolute;
+                  right:0;
+                  top:0;
+                }
 
                 strong {
                   display:block;
@@ -3849,10 +3946,24 @@ body {
                   color:#555555;
                   font-weight:500;
                   margin:0 0 6px;
+    
+                  @media (min-width: $screen-size-pc) {
+                    display:inline-block;
+                    vertical-align:top;
+                    font-size:16px;
+                    line-height:36px;
+                    padding:0 20px 0 0;
+                  }
                 }
 
                 div.outline {
                   border:1px solid #BEBEBE;
+    
+                  @media (min-width: $screen-size-pc) {
+                    display:inline-block;
+                    vertical-align:top;
+                    width:370px;
+                  }
                    
                   input {
                     height:32px;
@@ -3863,6 +3974,10 @@ body {
                     color:#555555;
                     font-weight:500;
                     outline:none;
+    
+                    @media (min-width: $screen-size-pc) {
+                      height:34px;
+                    }
                   }
 
                   button {
@@ -3871,6 +3986,10 @@ body {
                     width:32px;
                     border:none;
                     background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16.419' viewBox='0 0 16 16.419'%3E%3Cg id='그룹_1692' data-name='그룹 1692' transform='translate(-115.617 -705.704)'%3E%3Cg id='그룹_1690' data-name='그룹 1690' transform='translate(116.617 708.289)'%3E%3Cpath id='패스_21513' data-name='패스 21513' d='M130.617,712.884a1.334,1.334,0,0,0-1.258-1.4H117.875a1.334,1.334,0,0,0-1.258,1.4v2.332h14Z' transform='translate(-116.617 -711.485)' fill='%23fff' stroke='%234f789f' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'/%3E%3Cpath id='패스_21514' data-name='패스 21514' d='M116.617,722.738v7.916a1.224,1.224,0,0,0,1.258,1.187h11.485a1.224,1.224,0,0,0,1.258-1.187v-7.916Z' transform='translate(-116.617 -719.007)' fill='%23fff' stroke='%234f789f' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'/%3E%3C/g%3E%3Cg id='그룹_1691' data-name='그룹 1691' transform='translate(119.28 706.704)'%3E%3Cline id='선_1198' data-name='선 1198' y2='2.984' fill='%23fff' stroke='%234f789f' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'/%3E%3Cline id='선_1199' data-name='선 1199' y2='2.984' transform='translate(8.673)' fill='%23fff' stroke='%234f789f' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A") no-repeat center / 14px auto;
+    
+                    @media (min-width: $screen-size-pc) {
+                      height:34px;
+                    }
                   }
 
                   span {
@@ -3880,6 +3999,10 @@ body {
                     color:#555;
                     width:50px;
                     text-align:center;
+    
+                    @media (min-width: $screen-size-pc) {
+                      height:34px;
+                    }
                   }
                 }
 
@@ -3894,6 +4017,14 @@ body {
                   width:50px;
                   height:30px;
                   border-radius:2px;
+    
+                  @media (min-width: $screen-size-pc) {
+                    display:inline-block;
+                    vertical-align:top;
+                    width:70px;
+                    height:36px;
+                    margin:0 0 0 10px;
+                  }
                 }
               }
 
