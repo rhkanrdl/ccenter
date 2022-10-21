@@ -1977,13 +1977,13 @@ body header .container h1 a {
   font-size: 17px;
   font-weight: 700;
   line-height: 34.6px;
-  padding-left: 170px;
+  padding-left: 184px;
   color: #111;
 }
 @media (min-width: 1030px) {
   body header .container h1 a {
     line-height: 43px;
-    padding-left: 220px;
+    padding-left: 230px;
     font-size: 22px;
   }
 }
