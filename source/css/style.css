@@ -2286,6 +2286,19 @@ body div#content.main section.main-schedule div.container h4 {
     margin: 0 0 36px;
   }
 }
+body div#content.main section.main-schedule div.no-list {
+  font-size: 22px;
+  font-weight: 900;
+  color: #6C7F8F;
+  text-align: center;
+  padding: 30px 0 80px;
+}
+@media (min-width: 1030px) {
+  body div#content.main section.main-schedule div.no-list {
+    font-size: 30px;
+    padding: 30px 0 160px;
+  }
+}
 body div#content.main section.main-schedule div.list-outline ul {
   list-style: none;
   margin: 0;
@@ -3976,6 +3989,33 @@ body div#content.sub section.sub-reservation div.container div.select-option > d
     height: 40px;
   }
 }
+body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.x2 {
+  flex-grow: 2;
+  padding: 1.4px;
+}
+@media (min-width: 1030px) {
+  body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.x2 {
+    padding: 2px;
+  }
+}
+body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.x2 button,
+body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.x2 span {
+  max-width: 1000px;
+  height: 25.5px;
+}
+@media (min-width: 380px) {
+  body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.x2 button,
+body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.x2 span {
+    width: 53px;
+  }
+}
+@media (min-width: 1030px) {
+  body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.x2 button,
+body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.x2 span {
+    width: 84px;
+    height: 40px;
+  }
+}
 body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.close button {
   border-color: #AAAAAA;
   background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='15.962' height='15.961' viewBox='0 0 15.962 15.961'%3E%3Cg transform='translate(-1116.15 -1389.745)'%3E%3Cline x2='15.033' y2='15.033' transform='translate(1116.725 1390.099)' fill='none' stroke='%23777' stroke-miterlimit='10' stroke-width='1'/%3E%3Cline x1='15.254' y2='15.254' transform='translate(1116.504 1390.099)' fill='none' stroke='%23777' stroke-miterlimit='10' stroke-width='1'/%3E%3C/g%3E%3C/svg%3E%0A") no-repeat #F7F7F7 center/38% auto;
@@ -3994,7 +4034,12 @@ body div#content.sub section.sub-reservation div.container div.select-option > d
 }
 body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-disabled button {
   border-color: #666666;
-  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='18.45' height='24.639' viewBox='0 0 18.45 24.639'%3E%3Cdefs%3E%3CclipPath id='clip-path'%3E%3Crect width='18.45' height='24.639' fill='%235a5a5a'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg  clip-path='url(%23clip-path)'%3E%3Cpath d='M150.748,118.315l-2.467-6.84a1.4,1.4,0,0,0-1.316-.924H142.59v-2.311h2.923a1.049,1.049,0,0,0,0-2.1H142.59v-1.587a1.866,1.866,0,1,0-3.732,0v6.927a1.866,1.866,0,0,0,1.7,1.858,1.4,1.4,0,0,0,.164.01h5.258l2.134,5.915a1.4,1.4,0,0,0,2.633-.95' transform='translate(-132.381 -97.899)' fill='%235a5a5a'/%3E%3Cpath d='M14.419,207.568a1.05,1.05,0,0,0-1.472.187,6.056,6.056,0,1,1-7.661-9.037,1.049,1.049,0,1,0-1-1.847A8.155,8.155,0,1,0,14.606,209.04a1.05,1.05,0,0,0-.187-1.472' transform='translate(0 -187.568)' fill='%235a5a5a'/%3E%3Cpath d='M136.338,4.161a2.08,2.08,0,1,0-2.08-2.08,2.08,2.08,0,0,0,2.08,2.08' transform='translate(-127.996)' fill='%235a5a5a'/%3E%3C/g%3E%3C/svg%3E%0A") no-repeat #D1D1D1 center/40% auto;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='18.45' height='24.639' viewBox='0 0 18.45 24.639'%3E%3Cdefs%3E%3CclipPath id='clip-path'%3E%3Crect width='18.45' height='24.639' fill='%235a5a5a'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg  clip-path='url(%23clip-path)'%3E%3Cpath d='M150.748,118.315l-2.467-6.84a1.4,1.4,0,0,0-1.316-.924H142.59v-2.311h2.923a1.049,1.049,0,0,0,0-2.1H142.59v-1.587a1.866,1.866,0,1,0-3.732,0v6.927a1.866,1.866,0,0,0,1.7,1.858,1.4,1.4,0,0,0,.164.01h5.258l2.134,5.915a1.4,1.4,0,0,0,2.633-.95' transform='translate(-132.381 -97.899)' fill='%235a5a5a'/%3E%3Cpath d='M14.419,207.568a1.05,1.05,0,0,0-1.472.187,6.056,6.056,0,1,1-7.661-9.037,1.049,1.049,0,1,0-1-1.847A8.155,8.155,0,1,0,14.606,209.04a1.05,1.05,0,0,0-.187-1.472' transform='translate(0 -187.568)' fill='%235a5a5a'/%3E%3Cpath d='M136.338,4.161a2.08,2.08,0,1,0-2.08-2.08,2.08,2.08,0,0,0,2.08,2.08' transform='translate(-127.996)' fill='%235a5a5a'/%3E%3C/g%3E%3C/svg%3E%0A") no-repeat #D1D1D1 center/10px auto;
+}
+@media (min-width: 1030px) {
+  body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-disabled button {
+    background-size: 14px auto;
+  }
 }
 body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-distancing button {
   border-color: #666666;
