@@ -4592,6 +4592,26 @@ body {
               }
             }
 
+            div.no-data {
+              position:relative;
+              border:1px solid #AAAAAA;
+              padding:80px 15px;
+              border-radius:4px;
+              @include drop-shadow($x:0,$y: 0, $blur: 15px, $spread: 0, $alpha: 0.15);
+              text-align:center;
+              font-size:18px;
+              font-weight:700;
+              color:#555;
+              margin-bottom:40px;
+  
+              @media (min-width: $screen-size-pc) {
+                padding:48px 35px;
+                margin-bottom:50px;
+              }
+
+
+            }
+
             div.data + div.data {
               margin-top:40px;
 

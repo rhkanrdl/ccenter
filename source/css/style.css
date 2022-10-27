@@ -5863,6 +5863,24 @@ body div#content.sub section.sub-reservation div.container div.reservation-list 
     top: 35px;
   }
 }
+body div#content.sub section.sub-reservation div.container div.reservation-list div.no-data {
+  position: relative;
+  border: 1px solid #AAAAAA;
+  padding: 80px 15px;
+  border-radius: 4px;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.15);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  color: #555;
+  margin-bottom: 40px;
+}
+@media (min-width: 1030px) {
+  body div#content.sub section.sub-reservation div.container div.reservation-list div.no-data {
+    padding: 48px 35px;
+    margin-bottom: 50px;
+  }
+}
 body div#content.sub section.sub-reservation div.container div.reservation-list div.data + div.data {
   margin-top: 40px;
 }
