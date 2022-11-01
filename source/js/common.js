@@ -95,7 +95,7 @@ $(function(){
 
         const swiper3 = new Swiper('.link-swiper', {
           autoplay:false,
-          slidesPerView: 4,
+          slidesPerView: 3,
           spaceBetween: 20,
           loop:true,
   

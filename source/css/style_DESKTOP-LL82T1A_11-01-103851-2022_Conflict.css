@@ -2490,9 +2490,6 @@ body div#content.main section.main-sitelink {
     display: block;
     text-align: center;
   }
-  body div#content.main section.main-sitelink div.swiper-slide {
-    text-align: center;
-  }
   body div#content.main section.main-sitelink div.link-btns button {
     position: absolute;
     top: 50%;
@@ -3961,9 +3958,8 @@ body div#content.sub section.sub-reservation div.container div.select-option > d
   font-size: 0;
   display: flex;
   white-space: nowrap;
-  justify-content: center;
 }
-@media (min-width: 460px) {
+@media (min-width: 330px) {
   body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div {
     display: block;
   }
@@ -3974,12 +3970,10 @@ body div#content.sub section.sub-reservation div.container div.select-option > d
   flex: 1;
   vertical-align: top;
   padding: 1.4px;
-  max-width: 20px;
 }
-@media (min-width: 460px) {
+@media (min-width: 330px) {
   body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p {
     display: inline-block;
-    max-width: 42.8px;
   }
 }
 @media (min-width: 1030px) {
@@ -3991,13 +3985,14 @@ body div#content.sub section.sub-reservation div.container div.select-option > d
 body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p span {
   display: block;
   width: 100%;
+  max-width: 25.5px;
   height: 25.5px;
   border: 1px solid transparent;
   border-radius: 5.5px;
   padding: 0;
   margin: 0;
 }
-@media (min-width: 460px) {
+@media (min-width: 330px) {
   body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p button,
 body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p span {
     width: 25.5px;
@@ -4014,17 +4009,10 @@ body div#content.sub section.sub-reservation div.container div.select-option > d
 body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.x2 {
   flex-grow: 2;
   padding: 1.4px;
-  max-width: 40px;
-}
-@media (min-width: 460px) {
-  body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.x2 {
-    max-width: 55.8px;
-  }
 }
 @media (min-width: 1030px) {
   body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.x2 {
     padding: 2px;
-    max-width: 1000px;
   }
 }
 body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.x2 button,
@@ -4032,7 +4020,7 @@ body div#content.sub section.sub-reservation div.container div.select-option > d
   max-width: 1000px;
   height: 25.5px;
 }
-@media (min-width: 460px) {
+@media (min-width: 330px) {
   body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.x2 button,
 body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.x2 span {
     width: 53px;
