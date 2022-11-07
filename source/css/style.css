@@ -3920,6 +3920,10 @@ body div#content.sub section.sub-reservation div.container div.select-option > d
   border-color: #666666;
   background: #C7D8EE;
 }
+body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.legend > div div p.temp span {
+  border-color: #666666;
+  background: #C7D8EE;
+}
 body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.legend > div div p.seat-n span {
   border-color: #666666;
   background: #BFD6A0;
@@ -4053,6 +4057,10 @@ body div#content.sub section.sub-reservation div.container div.select-option > d
   border-color: #666666;
   background: #C7D8EE;
 }
+body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.temp button {
+  border-color: #666666;
+  background: #F9E3B7;
+}
 body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-n button {
   border-color: #666666;
   background: #BFD6A0;
@@ -4094,10 +4102,10 @@ body div#content.sub section.sub-reservation div.container div.select-option > d
     border-width: 6px;
   }
 }
-body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-r button, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-r::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-n button, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-n::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-s button, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-s::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-disabled button, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-disabled::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.checked button, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.checked::before {
+body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat button, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-r button, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-r::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-n button, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-n::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-s button, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-s::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-disabled button, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-disabled::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.checked button, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.checked::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.temp button, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.temp::before {
   cursor: pointer;
 }
-body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-r button:focus::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-n button:focus::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-s button:focus::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-disabled button:focus::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.checked button:focus::before {
+body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat button:focus::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-r button:focus::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-n button:focus::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-s button:focus::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-disabled button:focus::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.checked button:focus::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.temp button:focus::before {
   content: "";
   display: block;
   position: absolute;
@@ -4109,7 +4117,7 @@ body div#content.sub section.sub-reservation div.container div.select-option > d
   border: 2px solid #333;
 }
 @media (min-width: 1030px) {
-  body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-r button:focus::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-n button:focus::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-s button:focus::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-disabled button:focus::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.checked button:focus::before {
+  body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat button:focus::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-r button:focus::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-n button:focus::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-s button:focus::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-disabled button:focus::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.checked button:focus::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.temp button:focus::before {
     left: 2px;
     right: 2px;
     top: 2px;
@@ -4117,7 +4125,7 @@ body div#content.sub section.sub-reservation div.container div.select-option > d
     border-width: 3px;
   }
 }
-body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-r button:hover, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-n button:hover, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-s button:hover, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-disabled button:hover, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.checked button:hover {
+body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat button:hover, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-r button:hover, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-n button:hover, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-s button:hover, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-disabled button:hover, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.checked button:hover, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.temp button:hover {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
 }
 body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.checked-seat {

@@ -2368,6 +2368,13 @@ body {
                             }
                           }
 
+                          &.temp {
+                            span {
+                              border-color:#666666;
+                              background:#C7D8EE;
+                            }
+                          }
+
                           &.seat-n {
                             span {
                               border-color:#666666;
@@ -2530,6 +2537,13 @@ body {
                           }
                         }
 
+                        &.temp {
+                          button {
+                            border-color:#666666;
+                            background:#F9E3B7;
+                          }
+                        }
+
                         &.seat-n {
                           button {
                             border-color:#666666;
@@ -2586,12 +2600,13 @@ body {
                           }
                         }
 
-
+                        &.seat,
                         &.seat-r,
                         &.seat-n,
                         &.seat-s,
                         &.seat-disabled,
-                        &.checked {
+                        &.checked,
+                        &.temp {
                           button,
                           &::before {
                             cursor:pointer;
