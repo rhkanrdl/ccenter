@@ -2181,7 +2181,7 @@ body div#content.main section.main-issue div.main-swiper div.swiper-wrapper div.
     left: 50%;
     top: 140px;
     margin: 0 0 0 -300px;
-    padding: 70px 0 0 280px;
+    padding: 70px 100px 0 280px;
     width: 804px;
     height: 400px;
     border-radius: 400px;
@@ -3960,173 +3960,132 @@ body div#content.sub section.sub-reservation div.container div.select-option > d
     border-width: 6px;
   }
 }
-body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div {
+body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check hr {
+  display: block;
+  border: none;
+  height: 1ㅔㅌ;
+}
+body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check h7 {
+  display: block;
+  text-align: center;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 20px auto 10px;
+  background: #ddd;
+  padding: 10px;
+}
+body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline + h7 {
+  margin-top: 40px;
+}
+body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline {
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  text-align: center;
+}
+body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline p.margin {
+  margin: 20px 0 10px !important;
+}
+body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div.area {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div.area div {
   text-align: center;
   font-size: 0;
-  display: flex;
+  word-break: keep-all;
   white-space: nowrap;
-  justify-content: center;
 }
-@media (min-width: 460px) {
-  body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div {
-    display: block;
-  }
-}
-body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p {
+body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div.area div p {
   position: relative;
+  display: inline-block;
   margin: 0;
-  flex: 1;
   vertical-align: top;
-  padding: 1.4px;
-  max-width: 20px;
+  padding: 1px;
+  width: 24px;
+  height: 24px;
 }
-@media (min-width: 460px) {
-  body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p {
-    display: inline-block;
-    max-width: 42.8px;
-  }
+body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div.area div p.label {
+  width: 100%;
+  font-size: 14px;
+  font-weight: 600;
 }
-@media (min-width: 1030px) {
-  body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p {
-    padding: 2px;
-  }
-}
-body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p button,
-body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p span {
+body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div.area div p button,
+body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div.area div p span {
   display: block;
   width: 100%;
-  height: 25.5px;
+  height: 100%;
   border: 1px solid transparent;
   border-radius: 5.5px;
   padding: 0;
   margin: 0;
 }
-@media (min-width: 460px) {
-  body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p button,
-body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p span {
-    width: 25.5px;
-    max-width: 1000px;
-  }
+body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div.area div p.x2 {
+  width: 48px;
 }
-@media (min-width: 1030px) {
-  body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p button,
-body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p span {
-    width: 40px;
-    height: 40px;
-  }
-}
-body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.x2 {
-  flex-grow: 2;
-  padding: 1.4px;
-  max-width: 40px;
-}
-@media (min-width: 460px) {
-  body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.x2 {
-    max-width: 55.8px;
-  }
-}
-@media (min-width: 1030px) {
-  body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.x2 {
-    padding: 2px;
-    max-width: 1000px;
-  }
-}
-body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.x2 button,
-body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.x2 span {
-  max-width: 1000px;
-  height: 25.5px;
-}
-@media (min-width: 460px) {
-  body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.x2 button,
-body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.x2 span {
-    width: 53px;
-  }
-}
-@media (min-width: 1030px) {
-  body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.x2 button,
-body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.x2 span {
-    width: 84px;
-    height: 40px;
-  }
-}
-body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.close button {
+body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div.area div p.close button {
   border-color: #AAAAAA;
-  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='15.962' height='15.961' viewBox='0 0 15.962 15.961'%3E%3Cg transform='translate(-1116.15 -1389.745)'%3E%3Cline x2='15.033' y2='15.033' transform='translate(1116.725 1390.099)' fill='none' stroke='%23777' stroke-miterlimit='10' stroke-width='1'/%3E%3Cline x1='15.254' y2='15.254' transform='translate(1116.504 1390.099)' fill='none' stroke='%23777' stroke-miterlimit='10' stroke-width='1'/%3E%3C/g%3E%3C/svg%3E%0A") no-repeat #F7F7F7 center/38% auto;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='15.962' height='15.961' viewBox='0 0 15.962 15.961'%3E%3Cg transform='translate(-1116.15 -1389.745)'%3E%3Cline x2='15.033' y2='15.033' transform='translate(1116.725 1390.099)' fill='none' stroke='%23777' stroke-miterlimit='10' stroke-width='1'/%3E%3Cline x1='15.254' y2='15.254' transform='translate(1116.504 1390.099)' fill='none' stroke='%23777' stroke-miterlimit='10' stroke-width='1'/%3E%3C/g%3E%3C/svg%3E%0A") no-repeat #F7F7F7 center/46% auto;
 }
-body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-r button {
+body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div.area div p.seat-r button {
   border-color: #666666;
   background: #C7D8EE;
 }
-body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.temp button {
+body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div.area div p.temp button {
   border-color: #666666;
   background: #F9E3B7;
 }
-body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-n button {
+body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div.area div p.seat-n button {
   border-color: #666666;
   background: #BFD6A0;
 }
-body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-s button, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat button {
+body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div.area div p.seat-s button, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div.area div p.seat button {
   border-color: #666666;
   background: #fff;
 }
-body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-disabled button {
+body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div.area div p.seat-disabled button {
   border-color: #666666;
-  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='18.45' height='24.639' viewBox='0 0 18.45 24.639'%3E%3Cdefs%3E%3CclipPath id='clip-path'%3E%3Crect width='18.45' height='24.639' fill='%235a5a5a'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg  clip-path='url(%23clip-path)'%3E%3Cpath d='M150.748,118.315l-2.467-6.84a1.4,1.4,0,0,0-1.316-.924H142.59v-2.311h2.923a1.049,1.049,0,0,0,0-2.1H142.59v-1.587a1.866,1.866,0,1,0-3.732,0v6.927a1.866,1.866,0,0,0,1.7,1.858,1.4,1.4,0,0,0,.164.01h5.258l2.134,5.915a1.4,1.4,0,0,0,2.633-.95' transform='translate(-132.381 -97.899)' fill='%235a5a5a'/%3E%3Cpath d='M14.419,207.568a1.05,1.05,0,0,0-1.472.187,6.056,6.056,0,1,1-7.661-9.037,1.049,1.049,0,1,0-1-1.847A8.155,8.155,0,1,0,14.606,209.04a1.05,1.05,0,0,0-.187-1.472' transform='translate(0 -187.568)' fill='%235a5a5a'/%3E%3Cpath d='M136.338,4.161a2.08,2.08,0,1,0-2.08-2.08,2.08,2.08,0,0,0,2.08,2.08' transform='translate(-127.996)' fill='%235a5a5a'/%3E%3C/g%3E%3C/svg%3E%0A") no-repeat #D1D1D1 center/10px auto;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='18.45' height='24.639' viewBox='0 0 18.45 24.639'%3E%3Cdefs%3E%3CclipPath id='clip-path'%3E%3Crect width='18.45' height='24.639' fill='%235a5a5a'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg  clip-path='url(%23clip-path)'%3E%3Cpath d='M150.748,118.315l-2.467-6.84a1.4,1.4,0,0,0-1.316-.924H142.59v-2.311h2.923a1.049,1.049,0,0,0,0-2.1H142.59v-1.587a1.866,1.866,0,1,0-3.732,0v6.927a1.866,1.866,0,0,0,1.7,1.858,1.4,1.4,0,0,0,.164.01h5.258l2.134,5.915a1.4,1.4,0,0,0,2.633-.95' transform='translate(-132.381 -97.899)' fill='%235a5a5a'/%3E%3Cpath d='M14.419,207.568a1.05,1.05,0,0,0-1.472.187,6.056,6.056,0,1,1-7.661-9.037,1.049,1.049,0,1,0-1-1.847A8.155,8.155,0,1,0,14.606,209.04a1.05,1.05,0,0,0-.187-1.472' transform='translate(0 -187.568)' fill='%235a5a5a'/%3E%3Cpath d='M136.338,4.161a2.08,2.08,0,1,0-2.08-2.08,2.08,2.08,0,0,0,2.08,2.08' transform='translate(-127.996)' fill='%235a5a5a'/%3E%3C/g%3E%3C/svg%3E%0A") no-repeat #D1D1D1 center/auto 70%;
 }
-@media (min-width: 1030px) {
-  body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-disabled button {
-    background-size: 14px auto;
-  }
-}
-body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-distancing button {
+body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div.area div p.seat-distancing button {
   border-color: #666666;
   background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='28.506' height='28.507' viewBox='0 0 28.506 28.507'%3E%3Cdefs%3E%3CclipPath id='clip-path'%3E%3Crect width='28.506' height='28.507' transform='translate(-2 -2)' fill='%23f7f7f7' stroke='%23565656' stroke-width='2'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg transform='translate(2 2)'%3E%3Cg  transform='translate(0 0)' clip-path='url(%23clip-path)'%3E%3Cpath d='M24.588,13.045A11.544,11.544,0,1,1,13.044,1.5,11.544,11.544,0,0,1,24.588,13.045' transform='translate(-0.791 -0.791)' fill='%23f7f7f7' stroke='%23707070' stroke-width='1'/%3E%3Cpath d='M24.588,13.045A11.544,11.544,0,1,1,13.044,1.5,11.544,11.544,0,0,1,24.588,13.045Z' transform='translate(-0.791 -0.791)' fill='%23f7f7f7' stroke='%23777' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'/%3E%3Cline  y2='8' transform='translate(12.253 6.254)' fill='none' stroke='%23777' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'/%3E%3Cline y2='1' transform='translate(12.253 17.254)' fill='none' stroke='%23777' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A") no-repeat #fff center/70% auto;
 }
-body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.checked::before {
-  content: "";
-  display: block;
-  position: absolute;
-  left: 1.4px;
-  right: 1.4px;
-  top: 1.4px;
-  bottom: 1.4px;
-  background: rgba(233, 88, 135, 0.8);
-  border: 3px solid #E95887;
-}
-@media (min-width: 1030px) {
-  body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.checked::before {
-    left: 2px;
-    right: 2px;
-    top: 2px;
-    bottom: 2px;
-    border-width: 6px;
-  }
-}
-body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat button, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-r button, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-r::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-n button, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-n::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-s button, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-s::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-disabled button, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-disabled::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.checked button, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.checked::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.temp button, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.temp::before {
+body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div.area div p.seat button, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div.area div p.seat::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div.area div p.seat-r button, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div.area div p.seat-r::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div.area div p.seat-n button, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div.area div p.seat-n::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div.area div p.seat-s button, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div.area div p.seat-s::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div.area div p.seat-disabled button, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div.area div p.seat-disabled::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div.area div p.checked button, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div.area div p.checked::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div.area div p.temp button, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div.area div p.temp::before {
   cursor: pointer;
 }
-body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat button:focus::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-r button:focus::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-n button:focus::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-s button:focus::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-disabled button:focus::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.checked button:focus::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.temp button:focus::before {
+body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div.area div p.seat button:focus::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div.area div p.seat-r button:focus::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div.area div p.seat-n button:focus::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div.area div p.seat-s button:focus::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div.area div p.seat-disabled button:focus::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div.area div p.checked button:focus::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div.area div p.temp button:focus::before {
   content: "";
   display: block;
   position: absolute;
-  left: 1.4px;
-  right: 1.4px;
-  top: 1.4px;
-  bottom: 1.4px;
+  left: 1px;
+  right: 1px;
+  top: 1px;
+  bottom: 1px;
   background: rgba(0, 0, 0, 0.2);
   border: 2px solid #333;
 }
-@media (min-width: 1030px) {
-  body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat button:focus::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-r button:focus::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-n button:focus::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-s button:focus::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-disabled button:focus::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.checked button:focus::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.temp button:focus::before {
-    left: 2px;
-    right: 2px;
-    top: 2px;
-    bottom: 2px;
-    border-width: 3px;
-  }
+body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div.area div p.seat.checked button::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div.area div p.seat-r.checked button::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div.area div p.seat-n.checked button::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div.area div p.seat-s.checked button::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div.area div p.seat-disabled.checked button::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div.area div p.checked.checked button::before, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div.area div p.temp.checked button::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 1px;
+  right: 1px;
+  top: 1px;
+  bottom: 1px;
+  background: rgba(233, 88, 135, 0.8);
+  border: 3px solid #E95887;
 }
-body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat button:hover, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-r button:hover, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-n button:hover, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-s button:hover, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.seat-disabled button:hover, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.checked button:hover, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div p.temp button:hover {
+body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div.area div p.seat button:hover, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div.area div p.seat-r button:hover, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div.area div p.seat-n button:hover, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div.area div p.seat-s button:hover, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div.area div p.seat-disabled button:hover, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div.area div p.checked button:hover, body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div.area div p.temp button:hover {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
+}
+body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.map-check div.outline div.area.label div p {
+  display: block;
+  margin: 0;
+  font-size: 12px;
+  line-height: 24px;
 }
 body div#content.sub section.sub-reservation div.container div.select-option > div.seat div.checked-seat {
   margin: 0 0 20px;
