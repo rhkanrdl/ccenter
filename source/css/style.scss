@@ -286,7 +286,7 @@ body {
                     position:relative;
                     z-index:2;
                     width:299px;
-                    height:382px;
+                    height:auto;
                     margin:0 auto;
                     overflow:hidden;
                     text-align:center;
@@ -297,7 +297,7 @@ body {
                     @media (min-width: $screen-size-pc) { 
                       left:-300px;
                       width:420px;
-                      height:532px;
+                      height:580px;
                     }
 
                     &::before {
@@ -313,7 +313,7 @@ body {
 
                     img {
                       width:299px;
-                      height:382px;
+                      height:auto;
                       object-fit:cover;
 
                       @media (min-width: $screen-size-pc) { 

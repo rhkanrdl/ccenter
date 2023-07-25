@@ -493,7 +493,7 @@ div#content.sub05 div.sub-head.fix {
 }
 @media (min-width: 1200px) {
   .pagenation a,
-.pagenation strong {
+  .pagenation strong {
     width: 34px;
     line-height: 34px;
     font-size: 19px;
@@ -538,9 +538,6 @@ input[type=password] {
   font-family: sans-serif;
 }
 input[type=password]::-moz-placeholder {
-  font-family: "Pretendard", "Malgun Gothic", "apple sd gothic neo", sans-serif;
-}
-input[type=password]:-ms-input-placeholder {
   font-family: "Pretendard", "Malgun Gothic", "apple sd gothic neo", sans-serif;
 }
 input[type=password]::placeholder {
@@ -1485,8 +1482,8 @@ div.input dl dd input[type=date] {
 }
 @media (min-width: 1200px) {
   div.input dl dd input[type=text],
-div.input dl dd input[type=password],
-div.input dl dd input[type=date] {
+  div.input dl dd input[type=password],
+  div.input dl dd input[type=date] {
     width: 570px;
     height: 48px;
     font-size: 16px;
@@ -1523,8 +1520,8 @@ div.input dl dd input[type=date].with-button {
 }
 @media (min-width: 1200px) {
   div.input dl dd input[type=text].with-button,
-div.input dl dd input[type=password].with-button,
-div.input dl dd input[type=date].with-button {
+  div.input dl dd input[type=password].with-button,
+  div.input dl dd input[type=date].with-button {
     width: 428px;
   }
 }
@@ -1536,8 +1533,8 @@ div.input dl dd input[type=date].with-mail {
 }
 @media (min-width: 1200px) {
   div.input dl dd input[type=text].with-mail,
-div.input dl dd input[type=password].with-mail,
-div.input dl dd input[type=date].with-mail {
+  div.input dl dd input[type=password].with-mail,
+  div.input dl dd input[type=date].with-mail {
     width: 266px;
   }
 }
@@ -1548,8 +1545,8 @@ div.input dl dd input[type=date].tel {
 }
 @media (min-width: 1200px) {
   div.input dl dd input[type=text].tel,
-div.input dl dd input[type=password].tel,
-div.input dl dd input[type=date].tel {
+  div.input dl dd input[type=password].tel,
+  div.input dl dd input[type=date].tel {
     width: 176px;
   }
 }
@@ -1560,8 +1557,8 @@ div.input dl dd input[type=date].date {
 }
 @media (min-width: 1200px) {
   div.input dl dd input[type=text].date,
-div.input dl dd input[type=password].date,
-div.input dl dd input[type=date].date {
+  div.input dl dd input[type=password].date,
+  div.input dl dd input[type=date].date {
     width: 176px;
   }
 }
@@ -2126,7 +2123,7 @@ body div#content.main section.main-issue div.main-swiper div.swiper-wrapper div.
   position: relative;
   z-index: 2;
   width: 299px;
-  height: 382px;
+  height: auto;
   margin: 0 auto;
   overflow: hidden;
   text-align: center;
@@ -2138,7 +2135,7 @@ body div#content.main section.main-issue div.main-swiper div.swiper-wrapper div.
   body div#content.main section.main-issue div.main-swiper div.swiper-wrapper div.swiper-slide a p.image {
     left: -300px;
     width: 420px;
-    height: 532px;
+    height: 580px;
   }
 }
 body div#content.main section.main-issue div.main-swiper div.swiper-wrapper div.swiper-slide a p.image::before {
@@ -2153,7 +2150,7 @@ body div#content.main section.main-issue div.main-swiper div.swiper-wrapper div.
 }
 body div#content.main section.main-issue div.main-swiper div.swiper-wrapper div.swiper-slide a p.image img {
   width: 299px;
-  height: 382px;
+  height: auto;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -4469,12 +4466,12 @@ body div#content.sub section.sub-reservation div.container div.input-form > div 
 }
 @media (min-width: 1030px) {
   body div#content.sub section.sub-reservation div.container div.input-form > div div.box dl dd input[type=text],
-body div#content.sub section.sub-reservation div.container div.input-form > div div.box dl dd input[type=date] {
+  body div#content.sub section.sub-reservation div.container div.input-form > div div.box dl dd input[type=date] {
     font-size: 17px;
     width: 260px;
   }
   body div#content.sub section.sub-reservation div.container div.input-form > div div.box dl dd input[type=text]#mail,
-body div#content.sub section.sub-reservation div.container div.input-form > div div.box dl dd input[type=date]#mail {
+  body div#content.sub section.sub-reservation div.container div.input-form > div div.box dl dd input[type=date]#mail {
     width: 360px;
   }
 }
@@ -4959,19 +4956,12 @@ body div#content.sub section.sub-reservation div.container div.input-form2 div.b
   font-size: 14px;
   color: #999999;
 }
-body div#content.sub section.sub-reservation div.container div.input-form2 div.box1 textarea:-ms-input-placeholder {
-  font-size: 14px;
-  color: #999999;
-}
 body div#content.sub section.sub-reservation div.container div.input-form2 div.box1 textarea::placeholder {
   font-size: 14px;
   color: #999999;
 }
 @media (min-width: 1030px) {
   body div#content.sub section.sub-reservation div.container div.input-form2 div.box1 textarea::-moz-placeholder {
-    font-size: 15px;
-  }
-  body div#content.sub section.sub-reservation div.container div.input-form2 div.box1 textarea:-ms-input-placeholder {
     font-size: 15px;
   }
   body div#content.sub section.sub-reservation div.container div.input-form2 div.box1 textarea::placeholder {
@@ -5041,8 +5031,8 @@ body div#content.sub section.sub-reservation div.container div.input-form2 div.b
 }
 @media (min-width: 1030px) {
   body div#content.sub section.sub-reservation div.container div.input-form2 div.box2 div input[type=text],
-body div#content.sub section.sub-reservation div.container div.input-form2 div.box2 div input[type=date],
-body div#content.sub section.sub-reservation div.container div.input-form2 div.box2 div input[type=password] {
+  body div#content.sub section.sub-reservation div.container div.input-form2 div.box2 div input[type=date],
+  body div#content.sub section.sub-reservation div.container div.input-form2 div.box2 div input[type=password] {
     height: 38px;
     width: 320px;
     font-size: 17px;
@@ -5056,8 +5046,8 @@ body div#content.sub section.sub-reservation div.container div.input-form2 div.b
 }
 @media (min-width: 1030px) {
   body div#content.sub section.sub-reservation div.container div.input-form2 div.box2 div input[type=text].tel,
-body div#content.sub section.sub-reservation div.container div.input-form2 div.box2 div input[type=date].tel,
-body div#content.sub section.sub-reservation div.container div.input-form2 div.box2 div input[type=password].tel {
+  body div#content.sub section.sub-reservation div.container div.input-form2 div.box2 div input[type=date].tel,
+  body div#content.sub section.sub-reservation div.container div.input-form2 div.box2 div input[type=password].tel {
     width: 80px;
   }
 }
@@ -5074,8 +5064,8 @@ body div#content.sub section.sub-reservation div.container div.input-form2 div.b
 }
 @media (min-width: 1030px) {
   body div#content.sub section.sub-reservation div.container div.input-form2 div.box2 div input[type=text]#code,
-body div#content.sub section.sub-reservation div.container div.input-form2 div.box2 div input[type=date]#code,
-body div#content.sub section.sub-reservation div.container div.input-form2 div.box2 div input[type=password]#code {
+  body div#content.sub section.sub-reservation div.container div.input-form2 div.box2 div input[type=date]#code,
+  body div#content.sub section.sub-reservation div.container div.input-form2 div.box2 div input[type=password]#code {
     width: 170px;
   }
 }
@@ -5292,7 +5282,7 @@ body div#content.sub section.sub-reservation div.container div.input-form2 ul.de
 }
 @media (min-width: 1030px) {
   body div#content.sub section.sub-reservation div.container div.input-form2 ul.detail-box li p,
-body div#content.sub section.sub-reservation div.container div.input-form2 ul.detail-box li span {
+  body div#content.sub section.sub-reservation div.container div.input-form2 ul.detail-box li span {
     font-size: 17px;
     padding: 15px 20px;
   }
@@ -5432,7 +5422,7 @@ body div#content.sub section.sub-reservation div.container div.complete ul.detai
 }
 @media (min-width: 1030px) {
   body div#content.sub section.sub-reservation div.container div.complete ul.detail-box2 li p,
-body div#content.sub section.sub-reservation div.container div.complete ul.detail-box2 li span {
+  body div#content.sub section.sub-reservation div.container div.complete ul.detail-box2 li span {
     font-size: 17px;
     padding: 15px 20px;
   }
@@ -6238,9 +6228,6 @@ body div#content.sub section.sub-board div.list div.board-tools div.search input
 body div#content.sub section.sub-board div.list div.board-tools div.search input::-moz-placeholder {
   color: #888888;
 }
-body div#content.sub section.sub-board div.list div.board-tools div.search input:-ms-input-placeholder {
-  color: #888888;
-}
 body div#content.sub section.sub-board div.list div.board-tools div.search input::placeholder {
   color: #888888;
 }
@@ -6843,17 +6830,13 @@ body div#content.sub section.sub-member div.login div.box input[type=password] {
 }
 @media (min-width: 1030px) {
   body div#content.sub section.sub-member div.login div.box input[type=text],
-body div#content.sub section.sub-member div.login div.box input[type=password] {
+  body div#content.sub section.sub-member div.login div.box input[type=password] {
     height: 58px;
     font-size: 19px;
     padding: 0 18px;
   }
 }
 body div#content.sub section.sub-member div.login div.box input[type=text]::-moz-placeholder, body div#content.sub section.sub-member div.login div.box input[type=password]::-moz-placeholder {
-  font-size: 15px;
-  color: #888888;
-}
-body div#content.sub section.sub-member div.login div.box input[type=text]:-ms-input-placeholder, body div#content.sub section.sub-member div.login div.box input[type=password]:-ms-input-placeholder {
   font-size: 15px;
   color: #888888;
 }
@@ -6866,11 +6849,8 @@ body div#content.sub section.sub-member div.login div.box input[type=password]::
   body div#content.sub section.sub-member div.login div.box input[type=text]::-moz-placeholder, body div#content.sub section.sub-member div.login div.box input[type=password]::-moz-placeholder {
     font-size: 17px;
   }
-  body div#content.sub section.sub-member div.login div.box input[type=text]:-ms-input-placeholder, body div#content.sub section.sub-member div.login div.box input[type=password]:-ms-input-placeholder {
-    font-size: 17px;
-  }
   body div#content.sub section.sub-member div.login div.box input[type=text]::placeholder,
-body div#content.sub section.sub-member div.login div.box input[type=password]::placeholder {
+  body div#content.sub section.sub-member div.login div.box input[type=password]::placeholder {
     font-size: 17px;
   }
 }
